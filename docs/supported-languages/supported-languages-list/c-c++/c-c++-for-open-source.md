@@ -15,7 +15,7 @@ For information about managing dependencies and licenses from your developer wor
 
 ## Open source license compliance
 
-To check compliance for open source licenses, see [Snyk License Compliance Management.](../../../scan-with-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/snyk-license-compliance-management.md)
+To check compliance for open source licenses, see [Snyk License Compliance Management.](/broken/pages/S9I60Saqp9wV8hPyp2JV)
 
 ## IDE for C++ for open-source dependencies
 

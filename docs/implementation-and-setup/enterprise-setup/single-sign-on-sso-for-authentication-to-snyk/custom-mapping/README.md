@@ -6,7 +6,7 @@ Custom mapping allows you to dynamically assign users to your Snyk Groups and Or
 Contact your Snyk account team or Snyk Support to turn on custom mapping once you have completed the setup steps.
 {% endhint %}
 
-To understand more about roles and permissions within Snyk, see [Pre-defined roles](../../../../snyk-platform-administration/user-roles/pre-defined-roles.md). See also [user role management](../../../../snyk-platform-administration/user-roles/user-role-management.md).
+To understand more about roles and permissions within Snyk, see [Pre-defined roles](/broken/pages/XNksHYxr70heqewL6k3D). See also [user role management](/broken/pages/bggpmarB5cU3nHZ8zjJ4).
 
 ## Requirements for custom mapping
 
@@ -15,7 +15,7 @@ To understand more about roles and permissions within Snyk, see [Pre-defined rol
 
 ## Custom mapping options
 
-Snyk offers an updated custom mapping option explained on this page, with increased flexibility, including the ability to grant users Group-level and Tenant-level custom roles, in addition to pre-defined roles.&#x20;
+Snyk offers an updated custom mapping option explained on this page, with increased flexibility, including the ability to grant users Group-level and Tenant-level custom roles, in addition to pre-defined roles.
 
 The Snyk [Legacy custom mapping](legacy-custom-mapping.md) option is still supported.
 
@@ -43,7 +43,7 @@ Where:
   * **Optional**; may be an asterisk `*` or empty string `::`to apply as a [wildcard](./#wildcards) for all resources within the defined `scope` that are associated with the SSO connection.
   * **Optional**; an asterisk ( `*`) or an empty string can be used to apply to all resources **t**hat are associated with the SSO connection.
 * `role` is the normalized name of the required role. **Required**; if no role is present, the role mapping is ignored. See [Role normalized name](./#role-normalized-name) to find this information.
-  * If the role is a custom role, that is, a role created in the Group Member Roles admin panel that can be of either `Org` or `Group` type,  then it must have a `custom:` prefix. See the [example role assertions](./#example-role-assertions).
+  * If the role is a custom role, that is, a role created in the Group Member Roles admin panel that can be of either `Org` or `Group` type, then it must have a `custom:` prefix. See the [example role assertions](./#example-role-assertions).
   * Built-in roles do not have the `custom:` prefix, so values like `org_admin`, `org_collaborator`, `group_viewer` will refer to the Snyk pre-defined roles, which are shown with a padlock symbol in the Member Roles page.
 
 {% hint style="warning" %}
@@ -52,14 +52,14 @@ Users must only have one role mapped per Organization, Group or Tenant. Mapping 
 
 ### Default role assignments
 
-All users with any memberships within a Tenant must have a Tenant membership. If a user has a membership of an Organization, they must also have a Group Membership.&#x20;
+All users with any memberships within a Tenant must have a Tenant membership. If a user has a membership of an Organization, they must also have a Group Membership.
 
-If only an Organization-level role assertion is provided for a given user, for example,  then the user will automatically be assigned the **Tenant Member** and **Group Member** roles. These automatic assignments can be overridden by providing role assertions at the Group or Tenant level.
+If only an Organization-level role assertion is provided for a given user, for example, then the user will automatically be assigned the **Tenant Member** and **Group Member** roles. These automatic assignments can be overridden by providing role assertions at the Group or Tenant level.
 
 Snyk recommends providing explicit Tenant level and Group level role assertions where needed, to ensure that users have the correct role on login.
 
 {% hint style="info" %}
-An SSO connection may only be associated with one Tenant, and all users with any memberships within a tenant must also have a Tenant Membership.&#x20;
+An SSO connection may only be associated with one Tenant, and all users with any memberships within a tenant must also have a Tenant Membership.
 
 Therefore, it may be easier to assign Tenant-level roles by using the wildcard syntax (see example below), since the SSO is only linked to the one Tenant.
 {% endhint %}
@@ -99,7 +99,7 @@ snyk:org:test-org-N58YhztauHcaMiNfvi5fbL:custom:developer_readonly"
 
 These assertions will assign the user:
 
-* The pre-defined Group-level role **Group Viewer** for all groups in the SSO. See [pre-defined roles](../../../../snyk-platform-administration/user-roles/pre-defined-roles.md) for the permission this grants
+* The pre-defined Group-level role **Group Viewer** for all groups in the SSO. See [pre-defined roles](/broken/pages/XNksHYxr70heqewL6k3D) for the permission this grants
 * The pre-defined Organization-level role **Organization Admin** for the Organization with the name **Development**.
 * The custom Organization-level role **Developer ReadOnly** for the Organization with the name **Test Org**, which has the slug `test-org-N58YhztauHcaMiNfvi5fbL`.
 
@@ -130,7 +130,7 @@ Any user that is granted a role in an Organization within the SSO without an exp
 
 For a valid role assertion, the Organization or Group slug may be required, where a wildcard is not used. The slug is the canonical name for the Organization or Group within Snyk.
 
-To find an Organization slug, navigate to the **Settings** page for the Organization, and under **General** settings, the Organization slug value is visible. This can then be copied and used in role assertions in custom mapping.&#x20;
+To find an Organization slug, navigate to the **Settings** page for the Organization, and under **General** settings, the Organization slug value is visible. This can then be copied and used in role assertions in custom mapping.
 
 <figure><img src="../../../../.gitbook/assets/organization-settings-general-slugs.png" alt="Organization general settings page, showing the Organization slug"><figcaption><p>Organization general settings page, showing the Organization slug</p></figcaption></figure>
 
@@ -140,17 +140,17 @@ To find the slug of a Group, navigate to the Group Settings, and find the Group 
 
 ## Role normalized name
 
-To find the normalized name of a role for use in custom mapping, first confirm that the role exists for the Snyk Group by navigating to it in the Group settings: **Group Settings** > **Member Roles** > {**Role**}.&#x20;
+To find the normalized name of a role for use in custom mapping, first confirm that the role exists for the Snyk Group by navigating to it in the Group settings: **Group Settings** > **Member Roles** > {**Role**}.
 
 This will open the role details page that shows which permissions are enabled for the role and also shows the normalized name. Copy this normalized name and use it in custom mapping.
 
-For more details on roles, and specifically, custom roles, see [user role management](../../../../snyk-platform-administration/user-roles/user-role-management.md).
+For more details on roles, and specifically, custom roles, see [user role management](/broken/pages/bggpmarB5cU3nHZ8zjJ4).
 
 <figure><img src="../../../../.gitbook/assets/image (154).png" alt="Role details page for Organization Admin role"><figcaption><p>Role details page for Organization Admin role</p></figcaption></figure>
 
 ## Pre-defined role slugs
 
-Snyk has a set of [pre-defined roles](../../../../snyk-platform-administration/user-roles/pre-defined-roles.md). Their corresponding normalized names are listed below.
+Snyk has a set of [pre-defined roles](/broken/pages/XNksHYxr70heqewL6k3D). Their corresponding normalized names are listed below.
 
 | Role Type    | Role Name        | Role Slug          |
 | ------------ | ---------------- | ------------------ |

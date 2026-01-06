@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Multi-tenant settings for regions**\
-When installing, you must add a command in your script to set the Broker server URL for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+When installing, you must add a command in your script to set the Broker server URL for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 {% endhint %}
 
 This page has information and instructions for the following:

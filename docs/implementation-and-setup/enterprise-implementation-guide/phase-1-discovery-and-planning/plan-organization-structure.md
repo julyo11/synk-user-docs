@@ -16,7 +16,7 @@ Snyk uses a hierarchical approach to managing assets, access, and rollup reporti
   * The import you have tested and monitored with Snyk.
   * A CLI scan that is being monitored, a container that is being monitored in a registry or Kubernetes, or an asset detected during a Git import, such as an open-source manifest, a code analysis scan, or an infrastructure as code file detected.
 
-For more details, see [Manage Tenants, Groups and Organizations](../../../snyk-platform-administration/groups-and-organizations/).
+For more details, see [Manage Tenants, Groups and Organizations](/broken/pages/bNgd7bJkGk7MGdumvqYR).
 
 ## Decide the structure
 
@@ -31,11 +31,11 @@ Consider various factors when structuring Organizations, such as:
 * Git organization-based. : Some companies use a structure that mimics the organizations in Git, typically seen if a customer has 10-plus organizations in their Git platform.
 
 {% hint style="info" %}
-If you intend to use the [api-import-tool](../../../scan-with-snyk/snyk-tools/tool-snyk-api-import/), the Git organization-based approach will be your path forward.
+If you intend to use the [api-import-tool](/broken/pages/1wlsGRMGFqFhi4vWUyNH), the Git organization-based approach will be your path forward.
 {% endhint %}
 
 By exploring these options and grasping your company's requirements, you can establish an account structure that enhances collaboration and efficiency.
 
 ## Additional information
 
-See [Manage Organizations](../../../snyk-platform-administration/groups-and-organizations/organizations/create-and-delete-organizations.md) for more details.&#x20;
+See [Manage Organizations](/broken/pages/f3bR6TobXxYkuZV7KPfH) for more details.

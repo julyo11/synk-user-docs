@@ -1,7 +1,5 @@
 # Getting started
 
-
-
 {% hint style="info" %}
 Ensure you use languages, package managers, and frameworks supported by Snyk. See [Supported languages, package managers, and frameworks](../../supported-languages/supported-languages-package-managers-and-frameworks.md).
 {% endhint %}
@@ -12,12 +10,12 @@ Ensure you use languages, package managers, and frameworks supported by Snyk. Se
 Snyk does not support Microsoft Internet Explorer.
 {% endhint %}
 
-Snyk supports the latest versions of the following web browsers:&#x20;
+Snyk supports the latest versions of the following web browsers:
 
 * [Chrome](https://www.google.com/chrome/)
 * [Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [Safari](https://www.apple.com/safari/) (except for [Opening Fix PR](../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/))
+* [Safari](https://www.apple.com/safari/) (except for [Opening Fix PR](/broken/pages/Cm7hS8N3rVWHMGkV77Qg))
 
 {% hint style="info" %}
 Snyk requires Javascript to be enabled on your browser.
@@ -27,7 +25,7 @@ To start performing basic tasks in the Snyk application:
 
 ## Create or log in to a Snyk account
 
-To create a free account or sign up for a pricing plan, navigate to [snyk.io](https://snyk.io/). For details, see [Snyk Pricing Plans](../../implementation-and-setup/enterprise-implementation-guide/trial-limitations.md).&#x20;
+To create a free account or sign up for a pricing plan, navigate to [snyk.io](https://snyk.io/). For details, see [Snyk Pricing Plans](../../implementation-and-setup/enterprise-implementation-guide/trial-limitations.md).
 
 If your company has an existing Snyk account and uses single sign-on (SSO), use the SSO link provided by your administrators.
 
@@ -37,11 +35,11 @@ If your company requires an invitation to use Snyk, when you log in for the firs
 If you log in with a different authentication provider from the one your company uses for the Snyk account, you create a new account. You will not be logged in to the correct Organization for your company.
 {% endhint %}
 
-When you log in to the Snyk Web UI, Snyk shows your preferred (default) Organization. Snyk also uses the settings for your preferred Organization when you test a Project locally using the CLI.&#x20;
+When you log in to the Snyk Web UI, Snyk shows your preferred (default) Organization. Snyk also uses the settings for your preferred Organization when you test a Project locally using the CLI.
 
 ## Set up a Snyk integration
 
-For Snyk to know where to scan, you must provide it with access to your environment. The type of integration you need depends on what systems you use, what you want to scan, and where you want to add the integrations - [Organization](../../integrations/integrate-with-snyk.md) or [Group](../../integrations/integrate-with-snyk.md). For information about available integrators, see [Snyk SCM integrations](../../developer-tools/scm-integrations/organization-level-integrations/) and [Integrate with Snyk](../../integrations/integrate-with-snyk.md).
+For Snyk to know where to scan, you must provide it with access to your environment. The type of integration you need depends on what systems you use, what you want to scan, and where you want to add the integrations - [Organization](/broken/pages/xwry3aDtePANCG1oKbgw) or [Group](/broken/pages/xwry3aDtePANCG1oKbgw). For information about available integrators, see [Snyk SCM integrations](/broken/pages/LNOXZ05NnHPVVNO7KcJH) and [Integrate with Snyk](/broken/pages/xwry3aDtePANCG1oKbgw).
 
 To scan your code, you must first integrate Snyk with the repository holding that code.
 
@@ -53,7 +51,7 @@ Alternatively, if you want to scan your code without authenticating to your sour
 
 ### Manual process
 
-You can add an integration to Snyk manually at any point from the Snyk Web UI. To do this, navigate to **Integrations** > **Source Control**. For more information, see [Integrate with Snyk](../../integrations/integrate-with-snyk.md).
+You can add an integration to Snyk manually at any point from the Snyk Web UI. To do this, navigate to **Integrations** > **Source Control**. For more information, see [Integrate with Snyk](/broken/pages/xwry3aDtePANCG1oKbgw).
 
 {% hint style="info" %}
 If an integration is already configured for your Organization, it is marked as **Configured**.
@@ -62,7 +60,7 @@ If an integration is already configured for your Organization, it is marked as *
 ## Obtain and use your Snyk API token
 
 {% hint style="warning" %}
-Before authenticating, be sure you have set your region properly. For details, see [Regional hosting and data residency](../../snyk-data-and-governance/regional-hosting-and-data-residency.md), which has the [list of regional URLs](../../snyk-data-and-governance/regional-hosting-and-data-residency.md#regional-urls).
+Before authenticating, be sure you have set your region properly. For details, see [Regional hosting and data residency](/broken/pages/JSacA44jLZg6roCCprQQ), which has the [list of regional URLs](/broken/pages/JSacA44jLZg6roCCprQQ#regional-urls).
 {% endhint %}
 
 Your Snyk API token is a personal token available under your user profile. The Snyk API token is associated with your Snyk Account and not with a specific Organization.
@@ -71,13 +69,13 @@ Free and Team plan and trial users have access only to this personal token under
 
 To obtain your personal Snyk API token:
 
-1. Log in to Snyk and navigate to your personal account settings.&#x20;
+1. Log in to Snyk and navigate to your personal account settings.
 2. In your **General** settings, under API Token, select **click to show**.
 3. Highlight and copy your API key.
 
 If you want a new API token, select **Revoke & Regenerate**, but be aware that this will make the previous API token invalid.
 
-For information on when to use an API token and when to use a service account token, available to Enterprise plan users only, see [Authentication for API](../../snyk-api/authentication-for-api/).
+For information on when to use an API token and when to use a service account token, available to Enterprise plan users only, see [Authentication for API](/broken/pages/sZnVmeZvNLxOL4uHy3Wx).
 
 ## Import a Project to scan and identify issues
 
@@ -87,26 +85,26 @@ When you import a Project, Snyk scans that imported Project, and displays the re
 
 Importing a Project also does the following:
 
-* Sets Snyk to run a regular scan on that Project for issues. See [Usage settings](../../snyk-platform-administration/groups-and-organizations/usage-settings.md).
-* Initiates some automation, especially default Snyk tests on pull and merge requests, which help prevent vulnerabilities from being added to the Project. This automation fails builds according to your conditions and can be disabled or customized in your [integration settings](../../developer-tools/scm-integrations/organization-level-integrations/).
+* Sets Snyk to run a regular scan on that Project for issues. See [Usage settings](/broken/pages/gfMN3CV44C1OcuCHHpjj).
+* Initiates some automation, especially default Snyk tests on pull and merge requests, which help prevent vulnerabilities from being added to the Project. This automation fails builds according to your conditions and can be disabled or customized in your [integration settings](/broken/pages/LNOXZ05NnHPVVNO7KcJH).
 
-## Set up Snyk Essentials&#x20;
+## Set up Snyk Essentials
 
 {% hint style="info" %}
 Snyk Essentials is available only with Enterprise plans. For more information, see [plans and pricing](https://snyk.io/plans/).
 {% endhint %}
 
-Snyk Essentials enables Application Security teams to implement, manage, and scale a modern, high-performing, developer security program. It covers use cases under Application Security Posture Management (ASPM).&#x20;
+Snyk Essentials enables Application Security teams to implement, manage, and scale a modern, high-performing, developer security program. It covers use cases under Application Security Posture Management (ASPM).
 
-For more information, see [Snyk Essentials](../../scan-with-snyk/snyk-essentials.md).
+For more information, see [Snyk Essentials](/broken/pages/LwY0tzGcNW81AE6nW8kP).
 
 ## Review results and fix your issues
 
-After you have imported a Project, and Snyk has scanned that Project for issues, you can view the results of your scan and take action to fix issues.  You can see the number of issues found, grouped by severity level (**C**ritical, **H**igh, **M**edium or **L**ow). For details, see [Severity levels](../../manage-risk/prioritize-issues-for-fixing/severity-levels.md).
+After you have imported a Project, and Snyk has scanned that Project for issues, you can view the results of your scan and take action to fix issues. You can see the number of issues found, grouped by severity level (**C**ritical, **H**igh, **M**edium or **L**ow). For details, see [Severity levels](/broken/pages/JhnKMHkgiHwuiqrPYCEb).
 
 The scan results and available actions depend on the type of Project you scan:
 
-* Open-source libraries: see [Snyk Open Source](../../scan-with-snyk/snyk-open-source/).
-* Application code: see [Snyk Code](../../scan-with-snyk/snyk-code/).
-* Container images: see [Snyk Container](../../scan-with-snyk/snyk-container/scan-container-images.md).
-* Infrastructure as Code (IaC), Kubernetes, Helm and Terraform configuration files and cloud misconfigurations: see [Snyk IaC](../../scan-with-snyk/snyk-iac/).
+* Open-source libraries: see [Snyk Open Source](/broken/pages/JKQcCy3C8lRS2rxWmdA7).
+* Application code: see [Snyk Code](/broken/pages/VH8LkvMfOc0LnBAGa3Iq).
+* Container images: see [Snyk Container](/broken/pages/4AcTDXD3WAov2I57iTvg).
+* Infrastructure as Code (IaC), Kubernetes, Helm and Terraform configuration files and cloud misconfigurations: see [Snyk IaC](/broken/pages/APpxA0ls31leqJCrCZ5f).

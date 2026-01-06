@@ -1,6 +1,6 @@
 # Set up Asset Policies
 
-The [asset policies](../../../manage-risk/policies/assets-policies/), which come with Snyk Essentials, help you automate the process of adding business context and receiving notifications. You can set up policies to automatically identify the coverage control gaps.
+The [asset policies](/broken/pages/2bOYG0BUPNve8C912nBT), which come with Snyk Essentials, help you automate the process of adding business context and receiving notifications. You can set up policies to automatically identify the coverage control gaps.
 
 ## Understand a policy
 
@@ -19,8 +19,8 @@ You can create a policy by navigating to the Policy view and using the **New pol
 
 The policy builder editor focuses on two main areas:
 
-* [Define the filters](../../../manage-risk/policies/assets-policies/create-policies.md#define-filters) - Set filter conditions on asset properties.
-* [Set actions](../../../manage-risk/policies/assets-policies/create-policies.md#set-actions) - Define actions to be taken on filtered assets.
+* [Define the filters](/broken/pages/4Xks0gPRz2QeZafju1Tw#define-filters) - Set filter conditions on asset properties.
+* [Set actions](/broken/pages/4Xks0gPRz2QeZafju1Tw#set-actions) - Define actions to be taken on filtered assets.
 
 ### Key filter types <a href="#key-filter-types" id="key-filter-types"></a>
 
@@ -52,8 +52,8 @@ All policies are automatically run in a maximum of 3 hours after creation, then 
 
 Familiarize yourself with the asset policies by going through these use cases:
 
-* [Coverage control](../../../manage-risk/policies/assets-policies/use-cases-for-policies/coverage-control-policy.md) policy - identify and set coverage policies to allow your team to define where certain security controls need to be in place.
-* [Classification](../../../manage-risk/policies/assets-policies/use-cases-for-policies/classification-policy.md) policy - classify assets based on importance.
-* [Tagging](../../../manage-risk/policies/assets-policies/use-cases-for-policies/tagging-policy.md) policy - sets a tag on the matched assets.
-* [Notification](../../../manage-risk/policies/assets-policies/use-cases-for-policies/notification-policy.md) policy - get notifications about changes that take place on your assets.
-* [Coverage and coverage gap](../../../manage-risk/policies/assets-policies/use-cases-for-policies/coverage-and-coverage-gap-policies.md) policies - use the Coverage filter to verify if an asset has ever been tested by the product and the Coverage gap filter to verify if the asset meets the coverage requirements set in a Set coverage control policy.
+* [Coverage control](/broken/pages/ngDw8PqzMoRTZMCqajXy) policy - identify and set coverage policies to allow your team to define where certain security controls need to be in place.
+* [Classification](/broken/pages/yrCeFjdgZW9M97paMppr) policy - classify assets based on importance.
+* [Tagging](/broken/pages/s5L7HQzShDIpzZ7swUWi) policy - sets a tag on the matched assets.
+* [Notification](/broken/pages/4Nrf4B93UqtQUX3E7ork) policy - get notifications about changes that take place on your assets.
+* [Coverage and coverage gap](/broken/pages/JMtBzbcfcGIaAHyee85F) policies - use the Coverage filter to verify if an asset has ever been tested by the product and the Coverage gap filter to verify if the asset meets the coverage requirements set in a Set coverage control policy.

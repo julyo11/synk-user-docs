@@ -19,17 +19,17 @@ Snyk Assist enhances your learning experience within the Snyk Learn platform by:
 Snyk Assist utilizes Generative AI to respond to questions based on information retrieved from trusted Snyk sources:
 
 * [Snyk Learn lessons](https://learn.snyk.io/catalog/?format=lesson)
-* [Snyk Documentation](../../)&#x20;
+* [Snyk Documentation](/broken/pages/M1PIwAc24Tkume2ctZ80)
 
-Snyk Assist **does not** have access to your Snyk tenant data, such as issue and asset information, or Snyk Learn learning history. While interacting with Snyk Assist, we collect and process your queries and conversation history to provide responses and improve our service.&#x20;
+Snyk Assist **does not** have access to your Snyk tenant data, such as issue and asset information, or Snyk Learn learning history. While interacting with Snyk Assist, we collect and process your queries and conversation history to provide responses and improve our service.
 
-The technology leverages Snyk-managed services and selected third-party Large Language Model (LLM) providers to respond with helpful and informative answers.&#x20;
+The technology leverages Snyk-managed services and selected third-party Large Language Model (LLM) providers to respond with helpful and informative answers.
 
 {% hint style="info" %}
 **Capabilities and Limitations**
 
 * Snyk Assist **is designed** to answer questions regarding Snyk functionality and security concepts based on its knowledge base derived from Snyk Learn and Snyk Docs.
-* Snyk Assist **does not** perform security analysis, check your code for vulnerabilities, comment on code quality, or provide specific code samples. For code scanning and analysis, continue using the Snyk CLI, Snyk IDE extensions, or recurring SCM tests integrated with your repositories.&#x20;
+* Snyk Assist **does not** perform security analysis, check your code for vulnerabilities, comment on code quality, or provide specific code samples. For code scanning and analysis, continue using the Snyk CLI, Snyk IDE extensions, or recurring SCM tests integrated with your repositories.
 * Snyk Assist provides information from its body of knowledge, but responses should not be considered legal, security, or compliance advice. While we strive for accuracy, Snyk is not liable for decisions made based on information provided by Snyk Assist. Always verify critical security information through official Snyk documentation and tools.
 
 See the usage disclaimer [here](https://snyk.io/policies/snyk-assist-disclaimer).
@@ -65,4 +65,4 @@ After Snyk Assist is enabled, it is visible and accessible on Snyk Learn for the
 
 ## Data Handling and Safeguards
 
-See [How Snyk handles your data](../../snyk-data-and-governance/how-snyk-handles-your-data.md#snyk-learn) for more information on this topic.
+See [How Snyk handles your data](/broken/pages/OiIqUXA17KuWz7sPHqQO#snyk-learn) for more information on this topic.

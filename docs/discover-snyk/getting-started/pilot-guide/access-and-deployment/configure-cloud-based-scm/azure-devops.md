@@ -30,8 +30,8 @@ Configure the Group-level integration by following these steps:
 <figure><img src="../../../../../.gitbook/assets/image (307) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Search and select the Azure DevOps integration
-* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Integrate Azure DevOps using Snyk Essentials](../../../../../developer-tools/scm-integrations/group-level-integrations/azure-devops-for-snyk-essentials.md#azure-devops-integrate-using-snyk-apprisk) page.
-* If relevant, you can also include the Backstage catalog. See the [Backstage file for SCM integrations](../../../../../developer-tools/scm-integrations/application-context-for-scm-integrations/#backstage-file-for-scm-integrations) page for more details.
+* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Integrate Azure DevOps using Snyk Essentials](/broken/pages/40hwaiH4s4CSvIhwXTbk#azure-devops-integrate-using-snyk-apprisk) page.
+* If relevant, you can also include the Backstage catalog. See the [Backstage file for SCM integrations](/broken/pages/02qFHiSuRZqcR8LYBBEs#backstage-file-for-scm-integrations) page for more details.
 
 {% hint style="info" %}
 After the integration is configured, the Group-level integration shifts to a **Partially connected** status. During the next synchronization, it will transition to the connected state, and the Inventory view will be filled with data from the GitHub source.
@@ -45,7 +45,7 @@ Configure the Organization-level integration by following these steps:
 * Navigate to the Organization-level
 * Open **Integrations**
 * Search and select the Azure DevOps integration
-* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Azure DevOps integration settings](../../../../../developer-tools/scm-integrations/organization-level-integrations/azure-repositories-tfs.md#integrate-using-the-snyk-web-ui) page.
+* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Azure DevOps integration settings](/broken/pages/rtOmeyQBBkQ9A4WGIjWu#integrate-using-the-snyk-web-ui) page.
 
 <figure><img src="../../../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 

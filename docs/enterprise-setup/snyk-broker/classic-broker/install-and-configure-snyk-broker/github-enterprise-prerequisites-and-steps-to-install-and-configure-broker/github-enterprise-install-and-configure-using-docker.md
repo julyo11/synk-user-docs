@@ -12,11 +12,11 @@ If necessary, go to the [Advanced configuration page](../../../../../implementat
 
 ## Docker run command to set up a Broker Client for GitHub Enterprise
 
-Copy the following command to set up a fully configured Broker Client to analyze Open Source, IaC, Container, Code files (with the Code Agent), and Snyk Essentials information.&#x20;
+Copy the following command to set up a fully configured Broker Client to analyze Open Source, IaC, Container, Code files (with the Code Agent), and Snyk Essentials information.
 
 {% hint style="info" %}
 **Multi-tenant settings for regions**\
-When installing, you must add a command in your script to set the `BROKER_SERVER_URL`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](../../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+When installing, you must add a command in your script to set the `BROKER_SERVER_URL`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 {% endhint %}
 
 ```bash

@@ -15,13 +15,13 @@ Available functions:
 
 ## Technical specifications
 
-* Supported package manager:  [Mix](https://hexdocs.pm/mix/Mix.html) or [Hex](https://hex.pm/)
+* Supported package manager: [Mix](https://hexdocs.pm/mix/Mix.html) or [Hex](https://hex.pm/)
 * Supported package registry: [hex.pm](https://hex.pm/)
 
-For Elixir, Snyk supports the **Reports** feature.&#x20;
+For Elixir, Snyk supports the **Reports** feature.
 
 {% hint style="info" %}
-The **Snyk Fix PR** feature is not available for Elixir. This means that you will not be notified if the PR checks fail when the following conditions are met:&#x20;
+The **Snyk Fix PR** feature is not available for Elixir. This means that you will not be notified if the PR checks fail when the following conditions are met:
 
 * The **PR checks** feature is enabled and configured to **Only fail when the issues found have a fix available.**
 * "**Fixed in" available** is set to **Yes.**
@@ -33,7 +33,7 @@ The **Snyk Fix PR** feature is not available for Elixir. This means that you wil
 To scan your dependencies, you must first install Elixir and Mix. For details, [see the Elixir installation instructions](https://elixir-lang.org/install.html).
 {% endhint %}
 
-Snyk offers security scanning to test your Elixir Projects for vulnerabilities using the [CLI](../../developer-tools/snyk-cli/).
+Snyk offers security scanning to test your Elixir Projects for vulnerabilities using the [CLI](/broken/pages/eD26UDAHGrXfeHtinya2).
 
 Mix is a build tool that compiles, tests, and creates Elixir projects. Mix manages dependencies by integrating with the Hex package manager.
 

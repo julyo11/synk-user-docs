@@ -10,17 +10,17 @@ The guide starts by recognizing that most businesses:
 {% hint style="info" %}
 There are **typical timelines for implementation** depending on the size and scope of your business.
 
-If your business is small and nimble, Snyk implementation can be achieved in days. You can start scanning with Snyk soon after purchasing, often using a Git integration and the [API Import Tool](../../scan-with-snyk/snyk-tools/tool-snyk-api-import/). See the [Getting started](../../discover-snyk/getting-started/) and [Start scanning](../../scan-with-snyk/start-scanning.md) sections for details of this type of process.
+If your business is small and nimble, Snyk implementation can be achieved in days. You can start scanning with Snyk soon after purchasing, often using a Git integration and the [API Import Tool](/broken/pages/1wlsGRMGFqFhi4vWUyNH). See the [Getting started](../../discover-snyk/getting-started/) and [Start scanning](/broken/pages/5zCrFjDFiKjZHR4ksDQC) sections for details of this type of process.
 
 However, for larger, more process-oriented enterprises, the implementation process may take weeks or months and it requires more detailed planning to succeed.
 {% endhint %}
 
 The Snyk Essentials plan is included in the Snyk Enterprise plan, meaning that you will gain access to the following features:
 
-* [Coverage control](../../manage-risk/policies/assets-policies/use-cases-for-policies/coverage-and-coverage-gap-policies.md) for SCM.
-* [Policy](../../manage-risk/policies/assets-policies/) creation to automatically trigger specific actions.
-* [Backstage file](../../developer-tools/scm-integrations/application-context-for-scm-integrations/) customization for SCM integrations.
-* [Customized analytics](../../manage-risk/analytics/) and reports about the application.
+* [Coverage control](/broken/pages/JMtBzbcfcGIaAHyee85F) for SCM.
+* [Policy](/broken/pages/2bOYG0BUPNve8C912nBT) creation to automatically trigger specific actions.
+* [Backstage file](/broken/pages/02qFHiSuRZqcR8LYBBEs) customization for SCM integrations.
+* [Customized analytics](/broken/pages/BMi0F0SumchUc2wiIH5v) and reports about the application.
 
 ## Implementation strategy overview
 
@@ -62,4 +62,4 @@ Snyk was built with developers in mind, providing:
 * Tools to create secure applications using integrations for IDE, Git, and CI/CD.
 * [Snyk Advisor](https://snyk.io/advisor) and other tools to make decisions.
 * [Snyk Learn](https://learn.snyk.io) training materials on products, securing code, and best practices.
-* [Policies](../../manage-risk/policies/) that allow security and compliance teams to provide direction.
+* [Policies](/broken/pages/pSMvTbvxFhevQiQSH13s) that allow security and compliance teams to provide direction.

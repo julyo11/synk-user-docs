@@ -55,7 +55,7 @@ Adding projects video
 
 ## **Configure initial Snyk integration settings**
 
-After your Git repository is connected (see [See Git repository integrations (SCMs)](../../developer-tools/scm-integrations/organization-level-integrations/) for details), you have automated processes available to automatically check pull requests for vulnerabilities, automatically generate pull requests, and automatically generate dependency upgrade pull requests. Snyk recommends you disable these options initially.
+After your Git repository is connected (see [See Git repository integrations (SCMs)](/broken/pages/LNOXZ05NnHPVVNO7KcJH) for details), you have automated processes available to automatically check pull requests for vulnerabilities, automatically generate pull requests, and automatically generate dependency upgrade pull requests. Snyk recommends you disable these options initially.
 
 The settings for each Snyk Project are inherited from the Snyk Organization integration settings. Follow these steps to ensure these settings are disabled: Default Snyk test for pull requests, Automatic fix pull requests, Automatic dependency upgrade pull requests, and Automatic updates to Dockerfile base images. You can go back and enable these settings when your teams are ready to implement these options.
 
@@ -101,27 +101,27 @@ Reviewing infrastructure issues video
 
 Some package managers rely on context from the local environment. With these package managers, scanning in the local environment or as part of the CI/CD pipeline gives the most accurate results.
 
-To start using the Snyk CLI or a CI/CD plugin, [install the Snyk CLI](../../developer-tools/snyk-cli/install-or-update-the-snyk-cli/). After you have installed it, you must [authenticate your machine to associate the CLI with your Snyk account](../../developer-tools/snyk-cli/authenticate-to-use-the-cli.md), as demonstrated in this video.
+To start using the Snyk CLI or a CI/CD plugin, [install the Snyk CLI](/broken/pages/KUVsQmktSlBzw3LlQdio). After you have installed it, you must [authenticate your machine to associate the CLI with your Snyk account](/broken/pages/XurLzUfRULfzMIxjt6Jy), as demonstrated in this video.
 
 {% embed url="https://thoughtindustries-1.wistia.com/medias/ava7rrg7al" %}
 Authenticate CLI video
 {% endembed %}
 
-A scan with [Snyk test](../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-open-source/) provides information about open-source package issues, including fix advice, as demonstrated in this video.
+A scan with [Snyk test](/broken/pages/Aip4m0AfZfncoG5TZFbM) provides information about open-source package issues, including fix advice, as demonstrated in this video.
 
 {% embed url="https://thoughtindustries-1.wistia.com/medias/b8vrvtmnbu" %}
 Snyk test video
 {% endembed %}
 
-A scan with [`snyk code test` ](../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/)runs a Static Code Analysis test on the code in that Project, and returns the list of detected vulnerability issues, general information about the test, and a summary of the test findings.
+A scan with [`snyk code test` ](/broken/pages/Uq2Iiiko7yRRPiUipc9m)runs a Static Code Analysis test on the code in that Project, and returns the list of detected vulnerability issues, general information about the test, and a summary of the test findings.
 
-A scan with [`snyk container test`](../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-container/) returns a list of vulnerabilities in the container image, along with recommendations for upgrading the base image to one that is more secure.
+A scan with [`snyk container test`](/broken/pages/hx8jCYAUHDyUh6BQCRP9) returns a list of vulnerabilities in the container image, along with recommendations for upgrading the base image to one that is more secure.
 
-A scan with [`snyk iac test`](../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-iac/) returns advice on how to resolve discovered issues in your Infrastructure as code files.
+A scan with [`snyk iac test`](/broken/pages/wHKKoE0KkZsjCW3HUoUF) returns advice on how to resolve discovered issues in your Infrastructure as code files.
 
 ## Next steps in implementing the Snyk Enterprise plan
 
-* If you want developers to try Snyk in their local environment using the IDE or CLI, review [Snyk API](../../snyk-api/snyk-api.md) and [Snyk CLI](../../developer-tools/snyk-cli/).
+* If you want developers to try Snyk in their local environment using the IDE or CLI, review [Snyk API](/broken/pages/WJR3UthqfOfZZs4uhhwu) and [Snyk CLI](/broken/pages/eD26UDAHGrXfeHtinya2).
 * To get specific recommendations for your tech stack, visit the guide specific to your language.
 * When you are ready to plan a Snyk rollout to more teams, review the [Enterprise implementation guide](../enterprise-implementation-guide/) for more information.
 * See the [Developer launch package](https://assets.ctfassets.net/4un77bcsnjzw/2YfaqJNMsogGNJM6BBQz4p/8f5ca77b9c40a1bbe14cc9fb0aa05462/Snyk-developer-launch-package.pdf) for additional strategies, communication templates, and checklists for rolling Snyk out to a wider audience.

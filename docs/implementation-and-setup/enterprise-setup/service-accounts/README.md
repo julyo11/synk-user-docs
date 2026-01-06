@@ -9,7 +9,7 @@ Free and Team plan users and Trial users have access to a Snyk user's token unde
 
 Service accounts are a special type of system user. Creating a service account generates an API token that is the only token associated with the service account and takes the place of standard user credentials. Snyk needs authentication in order to initiate Snyk processes.
 
-You can set up a service account to use for automation rather than using a Snyk user's token and to help manage integrations.&#x20;
+You can set up a service account to use for automation rather than using a Snyk user's token and to help manage integrations.
 
 You can generate single or multiple tokens on the Organization or Group levels to manage your integrations. Each service account has a unique name to make it easier to recognize. This name cannot be reused.
 
@@ -23,7 +23,7 @@ This includes, but is not limited to, scanning using a CI/CD or build system plu
 
 ### Use a service account for GitHub Enterprise integration
 
-If your team needs to set up a service account in GitHub, you must use [GitHub Enterprise](../../../developer-tools/scm-integrations/organization-level-integrations/github-enterprise.md), which is available only with Snyk Enterprise accounts.
+If your team needs to set up a service account in GitHub, you must use [GitHub Enterprise](/broken/pages/nyteKuwjuiougUcOmurw), which is available only with Snyk Enterprise accounts.
 
 Using a service account to authenticate with an integration rather than a Snyk user's token ensures continuity when users change roles or close their personal Snyk accounts.
 
@@ -66,7 +66,7 @@ Note that while creating a **Group service account**, you can choose a Group-lev
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2022-07-06 at 12.01.28.png" alt="Group settings"><figcaption><p>Group settings</p></figcaption></figure>
 
-In contrast, while creating an **Organization service account,** you can choose Organization-level roles, including [custom roles](../../../snyk-platform-administration/user-roles/user-role-management.md#create-a-custom-role) that you have set up for your Organizations.
+In contrast, while creating an **Organization service account,** you can choose Organization-level roles, including [custom roles](/broken/pages/bggpmarB5cU3nHZ8zjJ4#create-a-custom-role) that you have set up for your Organizations.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2022-07-06 at 12.06.35.png" alt="Organization settings"><figcaption><p>Organization settings</p></figcaption></figure>
 
@@ -84,11 +84,11 @@ From the **Role** dropdown list, select an appropriate role.
 
 For Group service accounts, choose from the following list of roles to configure the scope of the token; Snyk recommends selecting Viewer or Admin.
 
-* **Group Viewer** enables read-only access. Note that to set an API token to be read-only and unable to write to the platform, you must use a service account and set it to Group Viewer. See [Snyk API token permissions users can control](../../../snyk-api/authentication-for-api/snyk-api-token-permissions-users-can-control.md).
+* **Group Viewer** enables read-only access. Note that to set an API token to be read-only and unable to write to the platform, you must use a service account and set it to Group Viewer. See [Snyk API token permissions users can control](/broken/pages/nEiPRoZEIYUSk0eExeJr).
 * **Group Admin** enables full administrator access.
 * **Group Member** associates a service account with a group but does not grant any specific access.
 
-For **Organization service accounts**, choose from the standard roles, **Org Admin** or **Org** **Collaborator**, or a custom role if you have set up any custom roles. See [Pre-defined](../../../snyk-platform-administration/user-roles/pre-defined-roles.md) roles for the scope of the Org Admin and Org Collaborator roles.
+For **Organization service accounts**, choose from the standard roles, **Org Admin** or **Org** **Collaborator**, or a custom role if you have set up any custom roles. See [Pre-defined](/broken/pages/XNksHYxr70heqewL6k3D) roles for the scope of the Org Admin and Org Collaborator roles.
 
 ### Create the service account
 

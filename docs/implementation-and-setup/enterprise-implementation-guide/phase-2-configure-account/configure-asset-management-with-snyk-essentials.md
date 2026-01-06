@@ -47,12 +47,12 @@ When you set a token on the Group Level Integrations screen, it enhances securit
 
 The supported SCM integrations are:
 
-* [GitHub](../../../developer-tools/scm-integrations/group-level-integrations/github-for-snyk-essentials.md)
-* [GitLab](../../../developer-tools/scm-integrations/group-level-integrations/gitlab-for-snyk-essentials.md)
-* [Azure DevOps (Azure Repos)](../../../developer-tools/scm-integrations/group-level-integrations/azure-devops-for-snyk-essentials.md)
-* [BitBucket](../../../developer-tools/scm-integrations/group-level-integrations/bitbucket-for-snyk-essentials.md)
+* [GitHub](/broken/pages/ZvXMfSTsBxBdsrDJezQZ)
+* [GitLab](/broken/pages/UKTPvn5HlySjNsbjp4xE)
+* [Azure DevOps (Azure Repos)](/broken/pages/40hwaiH4s4CSvIhwXTbk)
+* [BitBucket](/broken/pages/7G81bGzVtlrw3B3w3fsK)
 
-Navigate to the [Group-level integrations](../../../developer-tools/scm-integrations/group-level-integrations/) page for more details about the supported SCM integrations.
+Navigate to the [Group-level integrations](/broken/pages/Np2OAizk2Vt3oIFZuZ0f) page for more details about the supported SCM integrations.
 
 ### Brokered SCM integration <a href="#brokered-scm-integration" id="brokered-scm-integration"></a>
 
@@ -74,17 +74,17 @@ Navigate to the [Snyk Broker](../../enterprise-setup/snyk-broker/using-snyk-esse
 
 The application context refers to the information surrounding a particular application, which includes the assets that form the application and how these assets are related. Understanding this context is essential for assessing the impact and risk of security issues, as it provides a comprehensive view of the application's structure and its components. This understanding is crucial for effectively evaluating and managing application security risks.
 
-Access the [Application context for SCM Integrations](../../../developer-tools/scm-integrations/application-context-for-scm-integrations/) docs for more details about how to use this feature.
+Access the [Application context for SCM Integrations](/broken/pages/02qFHiSuRZqcR8LYBBEs) docs for more details about how to use this feature.
 
 ## Features
 
 The Snyk Essentials functionality is split across several menu options from the Group level.
 
 * The Asset Dashboard report
-* [Inventory](../../../manage-assets/manage-assets.md)
-* [Policies](../../../manage-risk/policies/assets-policies/)
-* [Integrations for SCM](../../../developer-tools/scm-integrations/group-level-integrations/)
-* [Issues](../../../manage-risk/prioritize-issues-for-fixing/)
+* [Inventory](/broken/pages/JbSZZ30RNmpR2HNsl5oO)
+* [Policies](/broken/pages/2bOYG0BUPNve8C912nBT)
+* [Integrations for SCM](/broken/pages/Np2OAizk2Vt3oIFZuZ0f)
+* [Issues](/broken/pages/Cnw9BGQopDAdyVbbsNxp)
 
 #### Inventory view
 
@@ -92,7 +92,7 @@ The Inventory feature is structured in four sections, each focused on a specific
 
 * **Overview:** Provides quick insights into the discovered repositories.
 * **All Assets**: All the discovered assets, grouped by their type.
-* **Asset Hierarchy**: Asset Hierarchy layout shows assets in a hierarchical structure. The list of assets is sorted by issue counts, and, where applicable, the package assets are listed underneath the repositories where they are located. Assets hierarchy is visible only when there are no filters applied. Navigate to the [Assets inventory components](../../../manage-assets/assets-inventory-components.md) page for a detailed overview of all options available in the Assets Hierarchy view and to the [Asset inventory filters](../../../manage-assets/assets-inventory-filters.md) page for more details about the filtering options and how to use them.
+* **Asset Hierarchy**: Asset Hierarchy layout shows assets in a hierarchical structure. The list of assets is sorted by issue counts, and, where applicable, the package assets are listed underneath the repositories where they are located. Assets hierarchy is visible only when there are no filters applied. Navigate to the [Assets inventory components](/broken/pages/pFNNg6FMwP7rLqEUdmun) page for a detailed overview of all options available in the Assets Hierarchy view and to the [Asset inventory filters](/broken/pages/aV1eizEJqFN1YaQfKstP) page for more details about the filtering options and how to use them.
 * **Teams**: SCM repository assets grouped by teams. Note that only SCM organizations with teams, and repositories assigned to a team, appear on this layout.
 * **Technology**: SCM repository assets grouped by technology, as detected and tagged by Snyk Essentials.
 
@@ -117,8 +117,8 @@ Use tags to categorize the assets. You can use tags in multiple ways:
 BitBucket cannot automatically detect the language used in the source code from the repositories. You can only see the language tags that have been manually added for BitBucket. For more information, see the official documentation provided by BitBucket.
 {% endhint %}
 
-* User-defined tags: set up custom tags through policies to categorize your assets beyond the system-generated tags. See the [Create policies](../../../manage-risk/policies/assets-policies/create-policies.md) page for more details.
+* User-defined tags: set up custom tags through policies to categorize your assets beyond the system-generated tags. See the [Create policies](/broken/pages/4Xks0gPRz2QeZafju1Tw) page for more details.
 
 #### Asset Dashboard Report
 
-The [Asset Dashboard](../../../manage-risk/reporting/available-snyk-reports.md#asset-dashboard) provides a comprehensive overview of your application and security controls. It displays essential data such as the status and trends of open issues, control coverage, and repository metadata.
+The [Asset Dashboard](/broken/pages/fLpYTxz79MgYV44FXKoS#asset-dashboard) provides a comprehensive overview of your application and security controls. It displays essential data such as the status and trends of open issues, control coverage, and repository metadata.

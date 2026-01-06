@@ -49,7 +49,7 @@ snyk code test
 If you precompile components, the source code should still be present to get the best results and coverage.
 {% endhint %}
 
-For reporting, you can generate reports using the [snyk-to-html](../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-to-html.md) plugin to generate reporting artifacts. Additionally, there are JSON and SARIF export capabilities for programmatic access to results, using the options `--json` and `--sarif`, respectively. For more information, see [Exporting the test results to a JSON or SARIF file](../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/view-snyk-code-cli-results.md#export-test-results).
+For reporting, you can generate reports using the [snyk-to-html](/broken/pages/rfMH14SACrhVBzHo0syx) plugin to generate reporting artifacts. Additionally, there are JSON and SARIF export capabilities for programmatic access to results, using the options `--json` and `--sarif`, respectively. For more information, see [Exporting the test results to a JSON or SARIF file](/broken/pages/pFthAYM4nWXLc9KaX09E#export-test-results).
 
 #### **Open Source libraries**
 
@@ -70,7 +70,7 @@ Similarly, for monitoring and sharing reporting, use the following command:
 snyk monitor --unmanaged --org=<org-id>
 ```
 
-where `org-id` is found under your Organization settings in the Snyk web interface, Although the Organization ID is not required, it is strongly recommended that you use it. As with Snyk Code, you can generate reports using the [snyk-to-html](../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-to-html.md) plugin to generate reporting artifacts.
+where `org-id` is found under your Organization settings in the Snyk web interface, Although the Organization ID is not required, it is strongly recommended that you use it. As with Snyk Code, you can generate reports using the [snyk-to-html](/broken/pages/rfMH14SACrhVBzHo0syx) plugin to generate reporting artifacts.
 
 * For individual or personal scans, use the CLI or IDE, and use the `snyk monitor --unmanaged` command to upload results.
   * However, Snyk recommends that you send these results to your personal folder and disable the scheduled scanning in the Project settings to ensure an individual scan does not cause noise.
@@ -103,10 +103,10 @@ The following shows a license policy text example at the bottom of the screen, g
 
 #### **Alternate testing options**
 
-If you develop advanced dependency management strategies, you might not use the standard and frequently used package managers. For that reason, Snyk has provided test APIs. In the case of C++, if you know the open-source packages and versions that are included in the application but do not have the source code, you can use the endpoint [List issues for a package](../../../snyk-api/reference/issues.md#orgs-org_id-packages-purl-issues) to do the analysis.
+If you develop advanced dependency management strategies, you might not use the standard and frequently used package managers. For that reason, Snyk has provided test APIs. In the case of C++, if you know the open-source packages and versions that are included in the application but do not have the source code, you can use the endpoint [List issues for a package](/broken/pages/kQkW8HH9qG6wXXenlcpH#orgs-org_id-packages-purl-issues) to do the analysis.
 
 ### **Options and plugins**
 
-* To help generate reports locally or at build time, see [snyk-to-html plugin](../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-to-html.md).
+* To help generate reports locally or at build time, see [snyk-to-html plugin](/broken/pages/rfMH14SACrhVBzHo0syx).
 * See `--json` and `--sarif` options for generating output that can be programmatically accessed.
-* For advanced filtering options, see[ snyk-filter](../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-filter.md).
+* For advanced filtering options, see[ snyk-filter](/broken/pages/4I0v4shEdeRktgmi0XIK).

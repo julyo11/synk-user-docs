@@ -3,7 +3,7 @@
 {% hint style="info" %}
 **Release status**
 
-Groovy for Snyk Code is in Early Access and is available only with Enterprise plans. To enable the feature, see [Snyk Preview](../../snyk-platform-administration/snyk-preview.md).
+Groovy for Snyk Code is in Early Access and is available only with Enterprise plans. To enable the feature, see [Snyk Preview](/broken/pages/l6wmHhwlFDYlN9FlUarH).
 {% endhint %}
 
 ## Technical specifications

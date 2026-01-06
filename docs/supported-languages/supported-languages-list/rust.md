@@ -8,9 +8,9 @@ Rust is supported for Snyk Code and for Snyk Open Source.
 
 Available functions:
 
-* Test your app's SBOM using `pkg:cargo` For more information, see [Test an SBOM document for vulnerabilities](../../snyk-api/using-specific-snyk-apis/sbom-apis/rest-api-endpoint-test-an-sbom-document-for-vulnerabilities.md).
+* Test your app's SBOM using `pkg:cargo` For more information, see [Test an SBOM document for vulnerabilities](/broken/pages/6qyuMaW3fgI5zskPfPpb).
 * Test your app's packages using `pkg:cargo`
-* Test your individual Rust packages from the Cargo package manager. For more information, see [List issues for a package](../../snyk-api/using-specific-snyk-apis/issues-list-issues-for-a-package.md).
+* Test your individual Rust packages from the Cargo package manager. For more information, see [List issues for a package](/broken/pages/hIM1NrTDtri4qLTJew4m).
 
 ## Technical specifications
 

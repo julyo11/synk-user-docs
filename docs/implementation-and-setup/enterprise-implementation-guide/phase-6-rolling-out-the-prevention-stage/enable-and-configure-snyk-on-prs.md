@@ -2,9 +2,9 @@
 
 ## Use PR Checks to introduce gating
 
-[Snyk Pull Request(PR) or Merge Request (MR) Checks](../../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/) allow you to prevent new security issues from entering your codebase by automatically scanning code changes when you submit a pull request (PR). PR Checks are available for open-source vulnerabilities, license compliance issues, and your own code issues.
+[Snyk Pull Request(PR) or Merge Request (MR) Checks](/broken/pages/Cm7hS8N3rVWHMGkV77Qg) allow you to prevent new security issues from entering your codebase by automatically scanning code changes when you submit a pull request (PR). PR Checks are available for open-source vulnerabilities, license compliance issues, and your own code issues.
 
-If you import Projects through a source control integration, then Snyk Open Source PR Checks is a good place to start introducing gating.&#x20;
+If you import Projects through a source control integration, then Snyk Open Source PR Checks is a good place to start introducing gating.
 
 {% hint style="info" %}
 It is recommended that you announce the changes prior to rolling them out. See [Announcement Templates](announcement-templates-for-prevention.md) for examples of how to message your developers.
@@ -16,7 +16,7 @@ You can use fail conditions to help you gradually introduce PR Checks to avoid f
 
 Fail conditions allow you to control whether the test will fail if the PR itself adds a dependency with issues, the most common circumstance, or if the repository as a whole has issues.
 
-The criteria for what constitutes a failed test can also be customized. By default, the test does not filter based on severity or fixability, which can mean that PR tests will regularly fail. You can customize  the criteria to fail the test:
+The criteria for what constitutes a failed test can also be customized. By default, the test does not filter based on severity or fixability, which can mean that PR tests will regularly fail. You can customize the criteria to fail the test:
 
 * Fail only for High or Critical severity issues; function available for Snyk Open Source and Snyk Code
 * Fail only when the issues found have a fix available; function available for Snyk Open Source
@@ -29,8 +29,8 @@ These PR tests are optional by default, meaning that even if the test fails, the
 
 It is common to have a phased rollout of Snyk features. Using PR checks as an example:
 
-* You may initially run Snyk tests and set them through your source control settings as optional checks. The results are displayed, but the developer is not blocked from merging the PR.&#x20;
-* Over time, as developers adapt to seeing these results and begin addressing the critical issues proactively, you can choose to start blocking PRs from being merged if there are any new High or Critical severity issues, or in the case of Snyk Open Source, if a fix is available.&#x20;
+* You may initially run Snyk tests and set them through your source control settings as optional checks. The results are displayed, but the developer is not blocked from merging the PR.
+* Over time, as developers adapt to seeing these results and begin addressing the critical issues proactively, you can choose to start blocking PRs from being merged if there are any new High or Critical severity issues, or in the case of Snyk Open Source, if a fix is available.
 
 This phased rollout helps to decrease friction between your security and development teams.
 

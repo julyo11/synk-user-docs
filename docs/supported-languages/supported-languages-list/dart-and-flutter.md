@@ -8,20 +8,20 @@ Dart and Flutter are supported only for Open Source.
 
 The following functions are available for Dart and Flutter:
 
-Available functions:&#x20;
+Available functions:
 
 * Test your app's SBOM using `pkg:pub`
 * Test your app's packages using `pkg:pub`
 
 ## Technical specifications
 
-* Supported package managers:  Pub
+* Supported package managers: Pub
 * Supported package registry: [pub.dev](https://pub.dev/)
 
 Snyk features are not supported for Dart and Flutter. You can test an open-source package from Pub package manager:
 
-* Using the API endpoint [List issues for a package](../../snyk-api/reference/issues.md#orgs-org_id-packages-purl-issues)
-* Using the [SBOM CLI](../../developer-tools/snyk-cli/commands/sbom.md).
+* Using the API endpoint [List issues for a package](/broken/pages/kQkW8HH9qG6wXXenlcpH#orgs-org_id-packages-purl-issues)
+* Using the [SBOM CLI](/broken/pages/sCbwhfjblecdl8DgRtMM).
 
 ## Testing platform dependencies (iOS, macOS, Android) in Flutter apps
 

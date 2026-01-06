@@ -11,7 +11,7 @@ Snyk analyzes and builds the dependencies tree depending on the language and pac
 ### How Snyk for Open Source and licensing works
 
 {% hint style="info" %}
-Before testing your Open Source Project for vulnerabilities, with limited exceptions, you must build your Project. For details, see [Open Source Projects that must be built before testing with the Snyk CLI](../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-open-source/open-source-projects-that-must-be-built-before-testing-with-the-snyk-cli.md).
+Before testing your Open Source Project for vulnerabilities, with limited exceptions, you must build your Project. For details, see [Open Source Projects that must be built before testing with the Snyk CLI](/broken/pages/5V89MhdBW7U92xaaD7SO).
 {% endhint %}
 
 Snyk builds a dependency graph and (dependencies tree) and then uses the [vulnerability database](https://snyk.io/vuln) to find vulnerabilities in any of the packages anywhere in that tree.
@@ -25,7 +25,7 @@ For information on managing dependencies and vulnerabilities from your developer
 
 ### Open Source license compliance
 
-To check compliance for open source licenses, see [Snyk License Compliance Management](../scan-with-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/snyk-license-compliance-management.md).
+To check compliance for open source licenses, see [Snyk License Compliance Management](/broken/pages/S9I60Saqp9wV8hPyp2JV).
 
 ## Snyk Code
 
@@ -41,7 +41,7 @@ Snyk Code automatically excludes the following files from analysis:
 
 The analysis is available only for files with names shorter than or equal to 255 characters. If the filename exceeds this limit, you receive an error. To ensure that all files are being analyzed, Snyk recommends shortening long filenames.
 
-### Framework support&#x20;
+### Framework support
 
 To support a specific framework, Snyk Code must both support the relevant language and be trained on Projects using the framework. The found patterns are then annotated by the security team and extended by curated content.
 
@@ -75,16 +75,16 @@ Snyk scans your codebase following this sequence:
 2. Rules are run against the event graph to find matches. The rules act as a checklist of known vulnerabilities that Snyk looks for in the event graph.
 3. If a match is found, Snyk looks for a vulnerability in the event graph, identifying where problems might be hiding in the code.
 
-For more information, see [Snyk Code AI Engine](../scan-with-snyk/snyk-code/#ai-engine). For more information about Snyk Code language support, see [Supported languages, package managers, and frameworks](supported-languages-package-managers-and-frameworks.md).
+For more information, see [Snyk Code AI Engine](/broken/pages/VH8LkvMfOc0LnBAGa3Iq#ai-engine). For more information about Snyk Code language support, see [Supported languages, package managers, and frameworks](supported-languages-package-managers-and-frameworks.md).
 
 ## Language support and CLI, CI/CD, and SCM integrations
 
-Snyk supports a variety of programming languages, enabling seamless integration into your development workflow through CLI commands, CI/CD pipelines, and SCM integrations.&#x20;
+Snyk supports a variety of programming languages, enabling seamless integration into your development workflow through CLI commands, CI/CD pipelines, and SCM integrations.
 
 You can use these tools to automatically check your code for security issues as you develop your software. This ensures that strong security practices are part of your development process.
 
 Navigate to the following pages for more details:
 
-* CLI for [Snyk Open Source](../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-open-source/) and [Snyk Code](../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/)
-* CI/CD for [Snyk Open Source](../developer-tools/snyk-ci-cd-integrations/snyk-ci-cd-integration-deployment-and-strategies/snyk-open-source-specific-ci-cd-strategies.md) and [Snyk Code](../developer-tools/snyk-ci-cd-integrations/use-snyk-code-in-the-ci-cd-pipeline.md)
-* [SCM integrations](../developer-tools/scm-integrations/organization-level-integrations/) for Snyk Open Source and Snyk Code
+* CLI for [Snyk Open Source](/broken/pages/Aip4m0AfZfncoG5TZFbM) and [Snyk Code](/broken/pages/Uq2Iiiko7yRRPiUipc9m)
+* CI/CD for [Snyk Open Source](/broken/pages/GNmMXZHGKHZtEstsTATU) and [Snyk Code](/broken/pages/IY1k3qTV0qxAWHEaBEc0)
+* [SCM integrations](/broken/pages/LNOXZ05NnHPVVNO7KcJH) for Snyk Open Source and Snyk Code

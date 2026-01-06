@@ -28,7 +28,7 @@ Review the chart values file to adjust additional configurations such as increas
 
 ## **Important notes about settings**
 
-The Dispatcher Base Url should be specific to your region if you are using a regional Snyk platform, for example, api.eu.snyk.io. See [Regional hosting and data residency](../../../snyk-data-and-governance/regional-hosting-and-data-residency.md) for details.
+The Dispatcher Base Url should be specific to your region if you are using a regional Snyk platform, for example, api.eu.snyk.io. See [Regional hosting and data residency](/broken/pages/JSacA44jLZg6roCCprQQ) for details.
 
 If you are using app.snyk.io, the following is not required. It is applicable only to regional Snyk platforms.
 
@@ -38,12 +38,12 @@ BROKER_DISPATCHER_BASE_URL=https://api.snyk.io
 
 Outbound connection to api.snyk.io or the corresponding api hostname must be allowed. Otherwise, preflight checks will indicate failure upon Broker client startup.
 
-`BROKER_CLIENT_URL` value must remain the same across all the Broker clients in the high availability set. The same BROKER\_TOKEN must also be used.  \
+`BROKER_CLIENT_URL` value must remain the same across all the Broker clients in the high availability set. The same BROKER\_TOKEN must also be used.\
 It is acceptable for this URL to resolve to a particular client.
 
 The multiple tunnels are primarily supporting Snyk=>You flow. The webhooks going You=>Snyk can take any tunnel as well.
 
-Preferably, Load Balancers can also be introduced. Kubernetes deployment with a service in front of each Broker Client will distribute this automatically.&#x20;
+Preferably, Load Balancers can also be introduced. Kubernetes deployment with a service in front of each Broker Client will distribute this automatically.
 
 The following client log lines show the high availability mode is active.
 

@@ -2,9 +2,9 @@
 
 ## Set email notifications
 
-Snyk can automatically notify you when new issues are found in imported Projects. By default, email notifications are sent for any newly found vulnerabilities, but notifications can be customized, for example, to send messages only for new High and Critical severity issues.&#x20;
+Snyk can automatically notify you when new issues are found in imported Projects. By default, email notifications are sent for any newly found vulnerabilities, but notifications can be customized, for example, to send messages only for new High and Critical severity issues.
 
-Snyk sends you a **weekly update** summarizing your security status across all of your Organizations.&#x20;
+Snyk sends you a **weekly update** summarizing your security status across all of your Organizations.
 
 Also, Snyk generates **usage alert emails** that warn you when you are approaching usage limits if you rely on the limited capacity of monthly free tests in one of your Snyk products. These are also often disabled during the initial setup period.
 
@@ -24,7 +24,7 @@ Users such as Administrators can opt-in to email notifications in their personal
 
 When you are ready to enable notifications more widely, you can see the overview for your Organizations and enable notifications in bulk on the **Group Settings** page.
 
-To view demonstrations of choosing settings for Organization and individual notifications, see [Configure notifications](../phase-2-configure-account/set-visibility-and-configure-an-organization-template/configure-notifications.md). See [Manage notifications](../../../snyk-platform-administration/manage-notifications.md) for detailed steps.
+To view demonstrations of choosing settings for Organization and individual notifications, see [Configure notifications](../phase-2-configure-account/set-visibility-and-configure-an-organization-template/configure-notifications.md). See [Manage notifications](/broken/pages/fnxGeoUFWDZyHd4nmh7O) for detailed steps.
 
 ## Announce Snyk to your teams
 

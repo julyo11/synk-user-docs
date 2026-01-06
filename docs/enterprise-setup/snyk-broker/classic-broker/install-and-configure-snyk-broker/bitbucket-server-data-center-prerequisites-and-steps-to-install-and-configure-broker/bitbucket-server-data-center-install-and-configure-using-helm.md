@@ -4,17 +4,17 @@ Before installing, review the [prerequisites](./) and the general instructions f
 
 To use this chart, you must first add the Snyk Broker Helm Chart by adding the repo:
 
-`helm repo add snyk-broker https://snyk.github.io/snyk-broker-helm/`&#x20;
+`helm repo add snyk-broker https://snyk.github.io/snyk-broker-helm/`
 
 Then, run the following commands to install the Broker and customize the environment variables. For definitions of the environment variables, refer to [Bitbucket Server/Data Center - environment variables for Snyk Broker Basic Auth](../../../../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/bitbucket-server-data-center-prerequisites-and-steps-to-install-and-configure-broker/bitbucket-server-data-center-environment-variables-for-snyk-broker-basic-auth.md) and [Bitbucket Server/Data Center - environment variables for Snyk Broker Personal Access Token (PAT)](../../../../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/bitbucket-server-data-center-prerequisites-and-steps-to-install-and-configure-broker/bitbucket-server-data-center-environment-variables-for-snyk-broker-personal-access-token-pat.md).
 
-&#x20;For `bitbucket` and `bitbucketApi` values do not include `https://`
+For `bitbucket` and `bitbucketApi` values do not include `https://`
 
 Snyk Essentials is set by default to `false`. Enable it by setting the flag to `true`.
 
 {% hint style="info" %}
 **Multi-tenant settings for regions**\
-When installing, you must add a command in your script to set the `brokerServerUrl`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](../../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+When installing, you must add a command in your script to set the `brokerServerUrl`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 {% endhint %}
 
 Use the following command to configure Broker to be used with Bitbucket Server using Basic Auth:

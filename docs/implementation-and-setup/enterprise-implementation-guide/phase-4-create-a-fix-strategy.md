@@ -3,7 +3,7 @@
 After you set up your integrations, create your Organizations, and import your Projects, view reports for visibility into the current vulnerability backlog for your business.
 
 {% hint style="info" %}
-For more information on how to use reports, see [Reporting](../../manage-risk/reporting/) and [Available Snyk Reports](../../manage-risk/reporting/available-snyk-reports.md).
+For more information on how to use reports, see [Reporting](/broken/pages/n3TechyZbEmvCh4okzNQ) and [Available Snyk Reports](/broken/pages/fLpYTxz79MgYV44FXKoS).
 {% endhint %}
 
 In most cases, when you look across all of your Organizations and vulnerabilities, there will be many issues, and it can be difficult to know where to start.
@@ -35,7 +35,7 @@ Filters are available to help prioritize what issues need to be fixed urgently. 
   * By choosing the Exploit Maturity filter, you implicitly filter only open-source results. [Exploit Maturity](https://snyk.io/blog/whats-so-wild-about-exploits-in-the-wild-and-how-can-we-prioritize-accordingly/) addresses issues that are **Mature** or have **Proof of Concept** and thus are more exploitable.
   * By choosing the Fixable filter, you can find issues where there is a fix available by upgrading a package. This makes fixing faster than without an upgrade.
   * You can choose CVSS Score for Open Source Vulnerabilities.
-* When you filter by [Priority Score](../../manage-risk/prioritize-issues-for-fixing/priority-score.md), CVSS Score is included in the calculation. One strategy is to eliminate the vulnerabilities with a score of 900-1000, and then move to vulnerabilities with a score of 800-900, and so on.
+* When you filter by [Priority Score](/broken/pages/20jrvGMpqmQb3bM52PLF), CVSS Score is included in the calculation. One strategy is to eliminate the vulnerabilities with a score of 900-1000, and then move to vulnerabilities with a score of 800-900, and so on.
 
 When planning your fix strategy, decide which metrics will be used on a specific timeline. If you choose to fix by severity, for example, estimate the time it will take to resolve vulnerability per severity. It is recommended to be specific with your fix strategy.
 

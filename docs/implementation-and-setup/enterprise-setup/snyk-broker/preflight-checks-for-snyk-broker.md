@@ -12,7 +12,7 @@ If it is not specified, BROKER\_SERVER\_URL is [https://broker.snyk.io](https://
 
 The REST API Healthcheck validates the connectivity to the Snyk REST API by performing a GET request to `{API_BASE_URL}/rest/openapi`. This check is conditional and will be executed only if high availability mode is enabled.
 
-If it is not specified,  the `API_BASE_URL` is [https://api.snyk.io](https://api.snyk.io/). For additional URLs, see [Regional hosting and data residency](../../../snyk-data-and-governance/regional-hosting-and-data-residency.md).
+If it is not specified, the `API_BASE_URL` is [https://api.snyk.io](https://api.snyk.io/). For additional URLs, see [Regional hosting and data residency](/broken/pages/JSacA44jLZg6roCCprQQ).
 
 ## `broker-client-url-validation`
 
@@ -25,4 +25,3 @@ There is no default.
 {% hint style="info" %}
 You can use the environment variable PREFLIGHT\_CHECKS\_ENABLED=false to disable the Preflight Checks feature, so no checks will be executed when the Broker Client starts.
 {% endhint %}
-

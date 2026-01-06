@@ -1,9 +1,9 @@
 # Name your Organization
 
-Organizations contain your scan, setup integrations, and view results.&#x20;
+Organizations contain your scan, setup integrations, and view results.
 
 * A Group is only available on the Enterprise plan, typically named after the company or line of business.
-* An Organization on the Team plan is the topmost level and is typically named after the company or name given to that company's Organization.&#x20;
+* An Organization on the Team plan is the topmost level and is typically named after the company or name given to that company's Organization.
 
 {% hint style="info" %}
 The Team plan consists of one licensed Organization for your use.
@@ -25,10 +25,10 @@ Snyk uses a hierarchical approach to managing assets, access, and rollup reporti
     * Types of application
     * Development teams.
 
-    In the context of Snyk Team or Free plans,  you are entitled to a single Organization. The expectation is usually to use a company name, or if there are several different teams with team plans in your company, use the company name with your team name or line of business as the name. For example, "Company - Team Name"
+    In the context of Snyk Team or Free plans, you are entitled to a single Organization. The expectation is usually to use a company name, or if there are several different teams with team plans in your company, use the company name with your team name or line of business as the name. For example, "Company - Team Name"
 * **Snyk Projects:** The targets you have tested/monitored with Snyk, such as a CLI scan, a container being monitored in registry, or open source files identified.
 
-For more details, see [Manage Groups and Organizations](../../../snyk-platform-administration/groups-and-organizations/).
+For more details, see [Manage Groups and Organizations](/broken/pages/bNgd7bJkGk7MGdumvqYR).
 
 {% hint style="info" %}
 If you have hundreds or thousands of repositories, consider the Snyk Enterprise plan for access to multiple organizations to restrict access, separate reporting, and manageable lists to interact with.

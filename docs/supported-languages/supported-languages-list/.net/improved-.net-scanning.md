@@ -5,7 +5,7 @@
 
 Improved Snyk Open Source scanning for NuGet .NET applications is in Early Access and available only with Enterprise plans. For more information, see [Plans and pricing](https://snyk.io/plans/).
 
-You can enable the feature by using [Snyk Preview](../../../snyk-platform-administration/snyk-preview.md).
+You can enable the feature by using [Snyk Preview](/broken/pages/l6wmHhwlFDYlN9FlUarH).
 {% endhint %}
 
 ## Limitations of existing solution
@@ -30,7 +30,7 @@ The .NET scanning improvements are available when importing Projects using Git r
 
 Follow these steps to enable the improvements:
 
-1. Activate improved .NET scanning for your Organization or Group through the [Snyk Preview](../../../snyk-platform-administration/snyk-preview.md) menu.
+1. Activate improved .NET scanning for your Organization or Group through the [Snyk Preview](/broken/pages/l6wmHhwlFDYlN9FlUarH) menu.
 2. Re-import any repositories with .NET applications; re-testing existing Projects is not sufficient.
 
 ### Private package repository integration
@@ -45,12 +45,12 @@ If you are not using `nuget.config`, but another way of informing the .NET ecosy
 
 Fill in the **Your tokens** fields by adding a **Username**, the **Personal access token**, and the repository **URL** (supports only HTTPS sources).
 
-For more information, see [Package repository integrations](../../../scan-with-snyk/snyk-open-source/package-repository-integrations/).
+For more information, see [Package repository integrations](/broken/pages/JDgWkO0MpKqEtJJ3Ex44).
 
 ### Limitations on improved .NET scanning for SCM integrations
 
 * `Directory.Build.props`, `global.json` and other .NET-specific manifest files are supported, but the file names must use upper and lower case, as Microsoft [describes](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022#directorybuildprops-and-directorybuildtargets).
-* For `global.json`, Snyk does not support all `major.minor.patch` versions that are currently supported by Microsoft, only a subset thereof. For more information, see this [error code](../../../scan-with-snyk/error-catalog.md#snyk-os-dotnet-0008).
+* For `global.json`, Snyk does not support all `major.minor.patch` versions that are currently supported by Microsoft, only a subset thereof. For more information, see this [error code](/broken/pages/FlBSmUszqmlLM51jz7S2#snyk-os-dotnet-0008).
 * The operations are performed on a case-sensitive file system, meaning manifest definitions like your `<ProjectReference>` strings must match files and folders with the same case.
 * Snyk does not support Projects that use Visual Studio Build Tools.
 * Snyk does not support Windows-specific frameworks (WPF, WCF) for .NET Projects.
@@ -58,11 +58,11 @@ For more information, see [Package repository integrations](../../../scan-with-s
 
 ## .NET scanning improvements for the Snyk CLI
 
-The .NET scanning improvements are also available in the Snyk CLI for both the [snyk test](../../../developer-tools/snyk-cli/commands/test.md) and [`snyk monitor`](../../../developer-tools/snyk-cli/commands/monitor.md) commands.
+The .NET scanning improvements are also available in the Snyk CLI for both the [snyk test](/broken/pages/Ekg6VsiCYSmILhHotLJw) and [`snyk monitor`](/broken/pages/A8wYIS7YTucNtXMUFdbe) commands.
 
 Follow these steps to enable the improvements:
 
-1. [Install](../../../developer-tools/snyk-cli/install-or-update-the-snyk-cli/) the latest version of the CLI.
+1. [Install](/broken/pages/KUVsQmktSlBzw3LlQdio) the latest version of the CLI.
 2. Run `dotnet restore`.
 3. Scan your .NET Projects using `snyk test` or `snyk monitor` as usual, but add the `--dotnet-runtime-resolution` option.
 

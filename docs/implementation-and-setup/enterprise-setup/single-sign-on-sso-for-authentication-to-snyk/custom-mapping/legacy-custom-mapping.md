@@ -20,12 +20,12 @@ snyk-{orgslug}-{role}
 
 * This role mapping assigns users with the specified role of Collaborator or Admin or Custom Role for the Snyk Organization specified in `orgslug`.
 * `orgslug` is the unique identifier of the Organization name in Snyk.
-  * How to find the `orgslug`: `https://app.snyk.io/org/{orgslug}` OR by using the endpoint [List all organizations in a group](../../../../snyk-api/reference/groups-v1.md#group-groupid-orgs).
+  * How to find the `orgslug`: `https://app.snyk.io/org/{orgslug}` OR by using the endpoint [List all organizations in a group](/broken/pages/CZh9shBbWqvpO0MmrPTh#group-groupid-orgs).
   * **Note**: The `orgslug` is the name of the Organization in most cases; however, there may be exceptions.
   * Note: `orgslug` can be a value of up to 60 characters.
 * **role**:
   * If you are using standard roles, `{role}` should be either `collaborator` or `admin`**.**
-  * Custom Role can also be used for `{role}` and should use the normalized name. See [Roles in custom SSO](../../../../snyk-platform-administration/user-roles/user-role-management.md#use-roles-in-custom-sso) for more details.
+  * Custom Role can also be used for `{role}` and should use the normalized name. See [Roles in custom SSO](/broken/pages/bggpmarB5cU3nHZ8zjJ4#use-roles-in-custom-sso) for more details.
 
 {% hint style="info" %}
 Users must only have one role mapped per Organization. Mapping multiple roles for an Organization is not supported and can lead to unexpected behavior.
@@ -85,7 +85,7 @@ To assign users with Org Collaborator roles, use the following format:
 }
 ```
 
-To assign users as Org Admin or Org Collaborator, use the following format for the roles array.&#x20;
+To assign users as Org Admin or Org Collaborator, use the following format for the roles array.
 
 {% hint style="info" %}
 You can assign different roles on a per-org basis. The following example assigns a user as Org Admin in the `orgslug` Org but a Collaborator in the `orgslug2` Org.

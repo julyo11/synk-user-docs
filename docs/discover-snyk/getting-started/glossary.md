@@ -40,7 +40,7 @@ Information related to the organization's objectives, priorities, and regulatory
 
 ### CI/CD
 
-Continuous integration (CI), continuous delivery (CD), and continuous deployment (CD) together comprise a Software Development Lifecycle (SDLC) model, guiding developers to automate the development and delivery of small, frequent changes. This ensures all team members have access to the latest codebase and can ensure the compatibility of committed code during development. See [Snyk CI/CD](../../developer-tools/snyk-ci-cd-integrations/) for details of Snyk CI/CD integrations.
+Continuous integration (CI), continuous delivery (CD), and continuous deployment (CD) together comprise a Software Development Lifecycle (SDLC) model, guiding developers to automate the development and delivery of small, frequent changes. This ensures all team members have access to the latest codebase and can ensure the compatibility of committed code during development. See [Snyk CI/CD](/broken/pages/pRDRUD7zlzkFwSnoufwe) for details of Snyk CI/CD integrations.
 
 ### **Class (Snyk Essentials)**
 
@@ -135,11 +135,11 @@ A text file format used to build container images using Docker. The Dockerfile c
 
 ### Environment
 
-Can refer to a cloud environment, a [Project attribute](../../snyk-platform-administration/snyk-projects/project-attributes.md), or an interface for working with Snyk, such as the Snyk [CLI](glossary.md#cli), [Web UI](glossary.md#snyk-web-ui), or an [IDE](glossary.md#ide).
+Can refer to a cloud environment, a [Project attribute](/broken/pages/0QpK9cg1uNSiFdkvYO2r), or an interface for working with Snyk, such as the Snyk [CLI](glossary.md#cli), [Web UI](glossary.md#snyk-web-ui), or an [IDE](glossary.md#ide).
 
 ### Exploit
 
-A demonstration of how a vulnerability can be taken advantage of. When an exploit is widely published, it is commonly referred to as an exploit "in the wild". See [View exploits](../../manage-risk/prioritize-issues-for-fixing/view-exploits.md).
+A demonstration of how a vulnerability can be taken advantage of. When an exploit is widely published, it is commonly referred to as an exploit "in the wild". See [View exploits](/broken/pages/iwL6jFGbzbHS6e3qzyS0).
 
 ### Exploit Maturity
 
@@ -149,11 +149,11 @@ A measure of how practical an exploit for a vulnerability is, based on whether t
 
 ### Fixable / Partially fixable
 
-A measure of whether a vulnerability can be fixed by Sny by applying a patch, upgrade, or pin. See [Vulnerability fix types](../../scan-with-snyk/snyk-open-source/manage-vulnerabilities/vulnerability-fix-types.md).
+A measure of whether a vulnerability can be fixed by Sny by applying a patch, upgrade, or pin. See [Vulnerability fix types](/broken/pages/ppGA0nezwhnHLRA0QDw1).
 
 ### Fix PR
 
-A pull request with an automatic fix for discovered vulnerabilities that Snyk can offer the user. See [Automated fix PRs](../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/create-automatic-prs-for-backlog-issues-and-known-vulnerabilities-backlog-prs.md).
+A pull request with an automatic fix for discovered vulnerabilities that Snyk can offer the user. See [Automated fix PRs](/broken/pages/0elfx2WQcJ4d4LYRMO1Q).
 
 ## G
 
@@ -185,11 +185,11 @@ Container images typically consist of several different file system layers, whic
 
 ### Integrations
 
-Third-party products, applications, and platforms that Snyk works with, for example, SCM systems such as GitHub. See [Integrate with Snyk](../../integrations/integrate-with-snyk.md).
+Third-party products, applications, and platforms that Snyk works with, for example, SCM systems such as GitHub. See [Integrate with Snyk](/broken/pages/xwry3aDtePANCG1oKbgw).
 
 ### Issue
 
-A license problem, vulnerability, or misconfiguration identified and listed by Snyk. See [Find and manage priority issues](../../manage-risk/prioritize-issues-for-fixing/).
+A license problem, vulnerability, or misconfiguration identified and listed by Snyk. See [Find and manage priority issues](/broken/pages/Cnw9BGQopDAdyVbbsNxp).
 
 ### Issue (Snyk **Essentials**)
 
@@ -211,7 +211,7 @@ A specific type of package.
 
 ### License policy
 
-A set of criteria for evaluating open-source license issues. License policies enable you to set the severity level and define legal instructions for each license. See [License policies](../../manage-risk/policies/license-policies/).
+A set of criteria for evaluating open-source license issues. License policies enable you to set the severity level and define legal instructions for each license. See [License policies](/broken/pages/zwu45Q0a2pdxyqsoD8E2).
 
 ## M
 
@@ -221,7 +221,7 @@ A file containing metadata about other files in a package.
 
 ### Monitor
 
-The `snyk monitor` command tests a Project and uploads the results to Snyk. See the CLI help for [Monitor](../../developer-tools/snyk-cli/commands/monitor.md).
+The `snyk monitor` command tests a Project and uploads the results to Snyk. See the CLI help for [Monitor](/broken/pages/A8wYIS7YTucNtXMUFdbe).
 
 ## O
 
@@ -231,11 +231,11 @@ Open Container Initiative. An independent body set up to facilitate collaboratio
 
 ### Organization
 
-An Organization in Snyk is a way to collect and organize your Projects. Members of Organizations have access to these Projects. See [Manage Groups and Organizations](../../snyk-platform-administration/groups-and-organizations/).
+An Organization in Snyk is a way to collect and organize your Projects. Members of Organizations have access to these Projects. See [Manage Groups and Organizations](/broken/pages/bNgd7bJkGk7MGdumvqYR).
 
 ### Origin or source
 
-The identifier for the ecosystem that a Target exists in. Snyk can scan Projects from multiple integrations, including CLI, API, GitHub, Kubernetes, and others. See [Snyk Projects](../../snyk-platform-administration/snyk-projects/).
+The identifier for the ecosystem that a Target exists in. Snyk can scan Projects from multiple integrations, including CLI, API, GitHub, Kubernetes, and others. See [Snyk Projects](/broken/pages/9JCchkbxM8EWIDrQR3p1).
 
 ## P
 
@@ -273,21 +273,21 @@ Pull Request. Allows a user to exchange changes made to source code and collabor
 
 ### PR Checks
 
-Use Snyk PR Checks to prevent new security issues from entering your codebase by automatically scanning code changes in real-time as soon as you submit a pull request (PR) in your source code manager (SCM). See [Run PR Checks](../../scan-with-snyk/pull-requests/pull-request-checks/).
+Use Snyk PR Checks to prevent new security issues from entering your codebase by automatically scanning code changes in real-time as soon as you submit a pull request (PR) in your source code manager (SCM). See [Run PR Checks](/broken/pages/yPzhschuRU4VKr1IC41w).
 
 ### Priority Score
 
-Snyk scores issues, including vulnerabilities and licenses for Open Source, to help prioritize the treatment of each one. Scores are based on multiple factors, including the CVSS score, and range from 0 (low) to 1000 (high). See [Priority Score](../../manage-risk/prioritize-issues-for-fixing/priority-score.md).
+Snyk scores issues, including vulnerabilities and licenses for Open Source, to help prioritize the treatment of each one. Scores are based on multiple factors, including the CVSS score, and range from 0 (low) to 1000 (high). See [Priority Score](/broken/pages/20jrvGMpqmQb3bM52PLF).
 
 ### Project
 
-An external item scanned by Snyk with configuration to define how to run that scan. Projects appear on the **Projects** menu on the Snyk dashboard. See also [Target](glossary.md#target). For details, see [Snyk Projects](../../snyk-platform-administration/snyk-projects/).
+An external item scanned by Snyk with configuration to define how to run that scan. Projects appear on the **Projects** menu on the Snyk dashboard. See also [Target](glossary.md#target). For details, see [Snyk Projects](/broken/pages/9JCchkbxM8EWIDrQR3p1).
 
 ## R
 
 ### Reachability
 
-Whether an application contains code that will hit a vulnerable code path during execution. See [Reachable vulnerabilities](../../manage-risk/prioritize-issues-for-fixing/reachability-analysis.md).
+Whether an application contains code that will hit a vulnerable code path during execution. See [Reachable vulnerabilities](/broken/pages/KomNA2dYi3p7VjqA6HB8).
 
 ### Registry
 
@@ -311,7 +311,7 @@ A value assigned to an issue, ranging from 0 to 1,000, representing the risk imp
 
 ### Rule
 
-A security policy that checks cloud infrastructure and infrastructure as code (IaC) for misconfigurations that can lead to security problems, or a security rule used by Snyk Code when scanning your source code for vulnerabilities. For more information, see [Snyk Code security rules](../../scan-with-snyk/snyk-code/snyk-code-security-rules/) and [IaC custom rules](../../scan-with-snyk/snyk-iac/current-iac-custom-rules/).
+A security policy that checks cloud infrastructure and infrastructure as code (IaC) for misconfigurations that can lead to security problems, or a security rule used by Snyk Code when scanning your source code for vulnerabilities. For more information, see [Snyk Code security rules](/broken/pages/BY6bSjykmi5PgS2SH6Qx) and [IaC custom rules](/broken/pages/aXCIKaqTJDxcjx219HdB).
 
 ## S
 
@@ -337,7 +337,7 @@ A scanned artifact in Snyk Essentials is an entity detected by Snyk that cannot 
 
 ### SCM
 
-Source Code Management. Also known as a code repository (repo) or version control system. The method used by developers to store their source code and track changes to code. SCM helps resolve conflicts when merging updates from multiple contributors. GitHub is an example of a common SCM system. See [Git repositories (SCMs)](../../developer-tools/scm-integrations/organization-level-integrations/).
+Source Code Management. Also known as a code repository (repo) or version control system. The method used by developers to store their source code and track changes to code. SCM helps resolve conflicts when merging updates from multiple contributors. GitHub is an example of a common SCM system. See [Git repositories (SCMs)](/broken/pages/LNOXZ05NnHPVVNO7KcJH).
 
 ### SCM Repository freshness (Snyk **Essentials**)
 
@@ -349,15 +349,15 @@ Software Development Lifecycle. A process followed by a development team, descri
 
 ### Secure at inception
 
-Secure at inception is a strategic imperative of Snyk Studio which ensures that code generated by AI coding assistants (for example, Cursor, Devin, Claude Code) is immediately scanned, verified, and fixed for security issues before you accept the code. This prevents the introduction of new vulnerabilities into the codebase and prevents building on top of insecure foundations which could require more significant refactoring and necessary human intervention. To learn more about this concept, see[ Secure at Inception for AI with Snyk.](https://snyk.io/solutions/secure-at-inception-for-ai/) To learn more about Secure at inception in the context of agentic workflows, see [Secure at inception rules](../../integrations/snyk-studio-agentic-integrations/quickstart-guides-for-snyk-studio/windsurf-guide.md#secure-at-inception-rules).
+Secure at inception is a strategic imperative of Snyk Studio which ensures that code generated by AI coding assistants (for example, Cursor, Devin, Claude Code) is immediately scanned, verified, and fixed for security issues before you accept the code. This prevents the introduction of new vulnerabilities into the codebase and prevents building on top of insecure foundations which could require more significant refactoring and necessary human intervention. To learn more about this concept, see[ Secure at Inception for AI with Snyk.](https://snyk.io/solutions/secure-at-inception-for-ai/) To learn more about Secure at inception in the context of agentic workflows, see [Secure at inception rules](/broken/pages/0UJAIhj85HRNnpciRNgw#secure-at-inception-rules).
 
 ### Security policy
 
-A set of criteria for evaluating open-source vulnerabilities. Security policies enable you to set custom rules to automatically prioritize or de-prioritize specific vulnerabilities. See [Security policies](../../manage-risk/policies/security-policies/).
+A set of criteria for evaluating open-source vulnerabilities. Security policies enable you to set custom rules to automatically prioritize or de-prioritize specific vulnerabilities. See [Security policies](/broken/pages/KhkVNMIq6t3wsULtc2Xq).
 
 ### Severity
 
-A severity level is applied to a vulnerability or a license issue, to indicate the risk for that item in an application. See [Severity levels](../../manage-risk/prioritize-issues-for-fixing/severity-levels.md).
+A severity level is applied to a vulnerability or a license issue, to indicate the risk for that item in an application. See [Severity levels](/broken/pages/JhnKMHkgiHwuiqrPYCEb).
 
 ### Snapshot
 
@@ -365,7 +365,7 @@ An individual report within the test history of a Project. Includes a tree of de
 
 ### `.snyk` policy
 
-A policy file that Snyk uses to define certain analysis behaviors and to specify patches for the CLI and CI/CD plugins. See [The .snyk file](../../manage-risk/policies/the-.snyk-file.md).
+A policy file that Snyk uses to define certain analysis behaviors and to specify patches for the CLI and CI/CD plugins. See [The .snyk file](/broken/pages/56wcxUvI8nYM9X9QXN86).
 
 ### Snyk
 
@@ -377,11 +377,11 @@ A free web application that allows you to compare software packages across open-
 
 ### Snyk API
 
-A Snyk tool that enables developers to integrate programmatically with Snyk. See [Snyk API](../../snyk-api/snyk-api.md).
+A Snyk tool that enables developers to integrate programmatically with Snyk. See [Snyk API](/broken/pages/WJR3UthqfOfZZs4uhhwu).
 
 ### Snyk Apps
 
-Snyk Apps are the modern and preferred way to build integrations with Snyk, exposing fine-grained scopes for accessing resources over the Snyk APIs, powered by OAuth 2.0 for a developer-friendly experience. See [Snyk Apps](../../snyk-api/using-specific-snyk-apis/snyk-apps-apis/).
+Snyk Apps are the modern and preferred way to build integrations with Snyk, exposing fine-grained scopes for accessing resources over the Snyk APIs, powered by OAuth 2.0 for a developer-friendly experience. See [Snyk Apps](/broken/pages/Mou8YaJdlRqtYZyfdi8K).
 
 ### Snyk Broker
 
@@ -389,23 +389,23 @@ A client/server system that serves as an agent or proxy, allowing Snyk to scan p
 
 ### Snyk CLI
 
-A Snyk platform tool that enables developers to find and fix known vulnerabilities in dependencies, using a command line interface. See [Snyk CLI](../../developer-tools/snyk-cli/).
+A Snyk platform tool that enables developers to find and fix known vulnerabilities in dependencies, using a command line interface. See [Snyk CLI](/broken/pages/eD26UDAHGrXfeHtinya2).
 
 ### Snyk Code
 
-A Snyk product. A SAST product enabling developers to find and fix vulnerabilities in your proprietary application code. See [Snyk Code](../../scan-with-snyk/snyk-code/).
+A Snyk product. A SAST product enabling developers to find and fix vulnerabilities in your proprietary application code. See [Snyk Code](/broken/pages/VH8LkvMfOc0LnBAGa3Iq).
 
 ### Snyk Container
 
-A Snyk product. Enables developers to find and fix vulnerabilities in container images and Kubernetes applications. See [Snyk Container](../../scan-with-snyk/snyk-container/).
+A Snyk product. Enables developers to find and fix vulnerabilities in container images and Kubernetes applications. See [Snyk Container](/broken/pages/VRa9ioGoKYGLhsRYyKdj).
 
 ### Snyk Infrastructure as Code
 
-A Snyk product. Enables developers to find and fix vulnerabilities in Kubernetes, Helm, and Terraform configuration files. See [Snyk IaC](../../scan-with-snyk/snyk-iac/).
+A Snyk product. Enables developers to find and fix vulnerabilities in Kubernetes, Helm, and Terraform configuration files. See [Snyk IaC](/broken/pages/APpxA0ls31leqJCrCZ5f).
 
 ### Snyk Open Source
 
-A Snyk product. Enables developers to find and fix open-source vulnerabilities. See [Snyk Open Source](../../scan-with-snyk/snyk-open-source/).
+A Snyk product. Enables developers to find and fix open-source vulnerabilities. See [Snyk Open Source](/broken/pages/JKQcCy3C8lRS2rxWmdA7).
 
 ### Snyk plugin
 
@@ -426,7 +426,7 @@ The browser-based environment that provides users access to Snyk functions.
 
 ### Social Trends
 
-Snyk shows a Trending banner on issues that are being actively discussed on X (formerly known as Twitter). See [Vulnerabilities with Social Trends](../../manage-risk/prioritize-issues-for-fixing/vulnerabilities-with-social-trends.md).
+Snyk shows a Trending banner on issues that are being actively discussed on X (formerly known as Twitter). See [Vulnerabilities with Social Trends](/broken/pages/PJ8e7QmeCFppzpBr6dZa).
 
 ### Source
 
@@ -452,7 +452,7 @@ A way to categorize assets. Helps you recognize or handle assets differently acc
 
 ### Tenant
 
-The top level of the Snyk hierarchy. It encompasses all your Groups and Organizations and all their corresponding Snyk work items. For more information, see [Tenants, Groups, and Organizations](../../snyk-platform-administration/groups-and-organizations/).
+The top level of the Snyk hierarchy. It encompasses all your Groups and Organizations and all their corresponding Snyk work items. For more information, see [Tenants, Groups, and Organizations](/broken/pages/bNgd7bJkGk7MGdumvqYR).
 
 ## U
 
@@ -464,13 +464,13 @@ A fix type: a problem can be fixed by upgrading a version of a package or by app
 
 ### Vulnerability
 
-A security vulnerability that was identified by Snyk. See [Manage vulnerabilities](../../scan-with-snyk/snyk-open-source/manage-vulnerabilities/).
+A security vulnerability that was identified by Snyk. See [Manage vulnerabilities](/broken/pages/EwZY0uCrbfsbjIlf60Tg).
 
 ## W
 
 ### Webhook
 
-A way for an app to provide other applications with real-time information. Snyk uses webhooks to check changes in code. See [Snyk Webhooks](../../snyk-api/using-specific-snyk-apis/webhooks-apis/).
+A way for an app to provide other applications with real-time information. Snyk uses webhooks to check changes in code. See [Snyk Webhooks](/broken/pages/VK0qtj62fw7drtznUcP5).
 
 ### Web UI
 
@@ -480,4 +480,4 @@ See [Snyk Web UI](glossary.md#snyk-web-ui).
 
 A Snyk feature. This enables Snyk to ingest shallow copies of your Git repositories for scanning, resulting in precise and reliable vulnerability scans.
 
-See [Workspaces for SCM integrations](../../developer-tools/scm-integrations/workspaces.md).
+See [Workspaces for SCM integrations](/broken/pages/TuZEhC7XyJEPG00DiKD2).

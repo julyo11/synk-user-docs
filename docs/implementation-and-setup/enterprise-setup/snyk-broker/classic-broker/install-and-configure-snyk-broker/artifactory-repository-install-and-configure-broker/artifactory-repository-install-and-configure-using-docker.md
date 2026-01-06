@@ -10,7 +10,7 @@ Before installing, review the [prerequisites](./) and the general instructions f
 
 This integration is useful to ensure a secure connection with your on-premise Artifactory Repository deployment.
 
-For information about non-brokered integration with Artifactory Repository see [Artifactory Repository setup](../../../../../../scan-with-snyk/snyk-open-source/package-repository-integrations/artifactory-package-repository-connection-setup/). For information about brokered integration with Artifactory Container Registry see [Snyk Broker -Container Registry Agent](../../../snyk-broker-container-registry-agent/).
+For information about non-brokered integration with Artifactory Repository see [Artifactory Repository setup](/broken/pages/GsFThR8rKBFaOpZ47DMf). For information about brokered integration with Artifactory Container Registry see [Snyk Broker -Container Registry Agent](../../../snyk-broker-container-registry-agent/).
 
 ## Configure Broker to be used for Artifactory Registry
 
@@ -20,7 +20,7 @@ To use the Broker client with an Artifactory Registry deployment, **run** `docke
 
 {% hint style="info" %}
 **Multi-tenant settings for regions**\
-When installing, you must add a command in your script to set the `BROKER_SERVER_URL`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](../../../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+When installing, you must add a command in your script to set the `BROKER_SERVER_URL`. This is the URL of the Broker server for the region where your data is hosted. For the commands and URLs to use, see [Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 {% endhint %}
 
 Copy the following command to set up a fully configured Broker Client to use with Artifactory Registry. You can run the Docker container by providing the relevant configuration:

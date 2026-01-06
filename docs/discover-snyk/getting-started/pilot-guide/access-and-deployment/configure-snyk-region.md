@@ -2,7 +2,7 @@
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}
 
-Confirm with your Snyk account team the region where your Snyk account is located. The guide below shows the setup for SNYK-US-02, but the process is similar for [other regions](../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#available-snyk-regions).
+Confirm with your Snyk account team the region where your Snyk account is located. The guide below shows the setup for SNYK-US-02, but the process is similar for [other regions](/broken/pages/JSacA44jLZg6roCCprQQ#available-snyk-regions).
 
 ## Snyk Web UI
 
@@ -10,7 +10,7 @@ Passwordless usernames with email authentication have been created for you. Use 
 
 ## Snyk CLI (and any CI/CD tools that use the Snyk CLI)
 
-Ensure you set the environment variable `SNYK_API` to point to `api.us.snyk.io` before trying to authenticate the CLI as described on the [Configure Snyk CLI to connect to Snyk API ](../../../../cli-ide-and-ci-cd-integrations/snyk-cli/configure-the-snyk-cli/configure-snyk-cli-to-connect-to-snyk-api.md)page.
+Ensure you set the environment variable `SNYK_API` to point to `api.us.snyk.io` before trying to authenticate the CLI as described on the [Configure Snyk CLI to connect to Snyk API ](/broken/pages/hxp4W47C3LOYdruTLQG9)page.
 
 When running the CLI in a CI/CD pipeline, ensure that the `SNYK_API` variable is set before running `snyk auth` . For example:
 
@@ -21,7 +21,7 @@ snyk auth $SNYK_TOKEN
 snyk test
 ```
 
-See [authenticating the CLI](../../../../developer-tools/snyk-cli/authenticate-to-use-the-cli.md) for more details.
+See [authenticating the CLI](/broken/pages/XurLzUfRULfzMIxjt6Jy) for more details.
 
 ## Snyk API
 

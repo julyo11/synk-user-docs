@@ -21,11 +21,11 @@ By default, Snyk tests Pip Projects using Python 3.7.
 {% hint style="warning" %}
 The behavior of imports, re-tests, and PR checks for Projects with dependencies requiring a higher version of Python varies according to the version specified:
 
-* Python 3.8 or above: scans will fail with an [error](../../../scan-with-snyk/error-catalog.md) message that includes details of the first failed package, the Python version it requires, and the Python version used.
+* Python 3.8 or above: scans will fail with an [error](/broken/pages/FlBSmUszqmlLM51jz7S2) message that includes details of the first failed package, the Python version it requires, and the Python version used.
 * Python 2.7 or 3.7: scans will succeed, but the incompatible dependencies are omitted from the results.
 {% endhint %}
 
-To define which Python minor version Snyk uses to test your Git-imported Pip Projects, you can use Organization settings and [`.snyk` policy file](../../../manage-risk/policies/the-.snyk-file.md).
+To define which Python minor version Snyk uses to test your Git-imported Pip Projects, you can use Organization settings and [`.snyk` policy file](/broken/pages/56wcxUvI8nYM9X9QXN86).
 
 To define the Python version for all Projects in an Organization:
 

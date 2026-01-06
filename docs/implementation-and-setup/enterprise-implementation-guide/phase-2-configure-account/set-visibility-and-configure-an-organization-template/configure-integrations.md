@@ -38,13 +38,13 @@ Monitoring takes the form of
 
 Source control scanning of your Git repositories is suitable for the majority of supported languages, but note that if you use a private package manager, such as Artifactory, this must be integrated with Snyk to scan your private packages.
 
-You can import Projects through a Git repository integration manually through the browser, or you can use the API, either with the [snyk-api-import](../../../../scan-with-snyk/snyk-tools/tool-snyk-api-import/) tool to import repositories in bulk, or the endpoint [Import Targets](../../../../snyk-api/reference/import-projects-v1.md#org-orgid-integrations-integrationid-import) to import specific repositories, which can be inserted into a pipeline.
+You can import Projects through a Git repository integration manually through the browser, or you can use the API, either with the [snyk-api-import](/broken/pages/1wlsGRMGFqFhi4vWUyNH) tool to import repositories in bulk, or the endpoint [Import Targets](/broken/pages/jLHZgIQBFEsEI7h4RhfR#org-orgid-integrations-integrationid-import) to import specific repositories, which can be inserted into a pipeline.
 
 {% hint style="info" %}
 For Snyk Enterprise customers, it is strongly suggested to use the **GitHub Enterprise integration card** on the Snyk Integrations page. You do not need to be a GitHub Enterprise customer to use this option; however, using this option allows a Personal Access Token (PAT) to be used, whereas OAuth, provided through the GitHub Integration card, provides an inconsistent experience in terms of access in the interface.
 {% endhint %}
 
-If you import your Project from a Git repository, you can also configure Snyk [PR Checks](../../../../scan-with-snyk/pull-requests/pull-request-checks/) and auto-fix PRs. These can prevent new security issues from entering your codebase by automatically scanning code changes in real-time whenever you submit a PR in your Git repository.
+If you import your Project from a Git repository, you can also configure Snyk [PR Checks](/broken/pages/yPzhschuRU4VKr1IC41w) and auto-fix PRs. These can prevent new security issues from entering your codebase by automatically scanning code changes in real-time whenever you submit a PR in your Git repository.
 
 This allows scanning and visibility earlier in the software development lifecycle by checking all submitted PRs for security issues.
 
@@ -72,7 +72,7 @@ The CLI offers
 * Support for private packages without the need to configure an additional integration, given that your build environment will have access to your private packages.
 * Visibility to components that are pushed to production by either breaking builds and reporting to Snyk or only by reporting to Snyk.
 
-There are a number of [CI/CD integrations](../../../../developer-tools/snyk-ci-cd-integrations/) that you can use, or you can use the [Snyk CLI](../../../../developer-tools/snyk-cli/) as part of your pipeline to have more flexibility in the tests you are running.
+There are a number of [CI/CD integrations](/broken/pages/pRDRUD7zlzkFwSnoufwe) that you can use, or you can use the [Snyk CLI](/broken/pages/eD26UDAHGrXfeHtinya2) as part of your pipeline to have more flexibility in the tests you are running.
 
 In the initial phase, Snyk recommends using the `monitor` feature to import information into Snyk so you can see any discovered issues, unless you are already importing your repos using a source control integration to achieve this. Later, when you want to start gating and blocking new vulnerabilities from being added, you can introduce `test` features, initially failing builds on critical issues, and then gradually adapting the fail criteria over time.
 
@@ -82,6 +82,6 @@ For `snyk iac test --report`, finding issues will result in the build possibly s
 If you want to passively test this, including the `--report` option requires either setting the build step to always continue or an alternative like concatenating logic equating to "or true", (for example `snyk iac test --report || true`). The exact syntax will depend on the ecosystem the CLI is running in.
 {% endhint %}
 
-Tools like [`snyk-filter`](../../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-filter.md) for advanced filtering and [`snyk-delta`](../../../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-delta.md) for highlighting new issues are quite popular for configuring pipelines.
+Tools like [`snyk-filter`](/broken/pages/4I0v4shEdeRktgmi0XIK) for advanced filtering and [`snyk-delta`](/broken/pages/GfGB9yTuQZUJ6uvKYspo) for highlighting new issues are quite popular for configuring pipelines.
 
 Demonstrations of various pipeline integrations can be found on [Snyk-Labs](https://github.com/snyk-labs/snyk-cicd-integration-examples)

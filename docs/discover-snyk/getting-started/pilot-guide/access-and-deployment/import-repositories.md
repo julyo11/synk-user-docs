@@ -32,6 +32,6 @@ You can either continue monitoring the import by returning to the import logs or
 {% hint style="info" %}
 Additional resources
 
-* [Import Project repository](../../../../scan-with-snyk/import-project-repository/)
-* [API-driven imports](../../../../scan-with-snyk/snyk-tools/tool-snyk-api-import/)
+* [Import Project repository](/broken/pages/ySZdVaX9HP9GkYZpofLi)
+* [API-driven imports](/broken/pages/1wlsGRMGFqFhi4vWUyNH)
 {% endhint %}

@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Multi-tenant settings for regions other than the default**\
-When you set up Snyk Broker for use in regions other than the default, additional environment variables with specific URLs are required. For the URLs and examples, see [Regional hosting and data residency, Broker URLs](../../../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+When you set up Snyk Broker for use in regions other than the default, additional environment variables with specific URLs are required. For the URLs and examples, see [Regional hosting and data residency, Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 {% endhint %}
 
 When you set up Snyk Broker using Helm, you can set advanced parameters as explained on the following pages:
@@ -19,4 +19,3 @@ When you set up Snyk Broker using Helm, you can set advanced parameters as expla
 * [Proxy settings for Broker Helm chart installation](proxy-settings-for-broker-helm-chart-installation.md)
 * [Parameters for troubleshooting and providing your own certificate with Helm](parameters-for-troubleshooting-and-providing-your-own-certificate-with-helm.md)
 * [Credential pooling with Docker and Helm](../advanced-configuration-for-snyk-broker-docker-installation/credential-pooling-with-docker-and-helm.md)
-

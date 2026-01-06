@@ -2,7 +2,7 @@
 
 If you change an environment variable, you must restart your Broker, except in Kubernetes deployments.
 
-You must use `-e BROKER_SERVER_URL=https://broker.REGION.snyk.io \` for regional Snyk instances. For details, see [Broker URLs](../../../../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-server-urls).
+You must use `-e BROKER_SERVER_URL=https://broker.REGION.snyk.io \` for regional Snyk instances. For details, see [Broker URLs](/broken/pages/JSacA44jLZg6roCCprQQ#broker-server-urls).
 
 ```
 docker run --restart=always \

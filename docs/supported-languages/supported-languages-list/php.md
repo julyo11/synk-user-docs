@@ -66,7 +66,7 @@ Available features:
 
 ## CLI support for PHP
 
-A [build is required](../../developer-tools/snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-open-source/open-source-projects-that-must-be-built-before-testing-with-the-snyk-cli.md) to scan with the CLI if there is no `composer.lock` file present. There are no unique options for use when running Snyk for PHP.
+A [build is required](/broken/pages/5V89MhdBW7U92xaaD7SO) to scan with the CLI if there is no `composer.lock` file present. There are no unique options for use when running Snyk for PHP.
 
 ## SCM integrations for PHP
 

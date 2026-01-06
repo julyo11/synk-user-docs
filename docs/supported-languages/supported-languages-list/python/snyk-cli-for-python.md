@@ -8,9 +8,9 @@ To set the Python version in the CLI, add the following option to `snyk test` or
 --command=python3
 ```
 
-For details, see the options for Python Projects in the [`snyk test`](../../../developer-tools/snyk-cli/commands/test.md) and [`snyk monitor`](../../../developer-tools/snyk-cli/commands/monitor.md) help.
+For details, see the options for Python Projects in the [`snyk test`](/broken/pages/Ekg6VsiCYSmILhHotLJw) and [`snyk monitor`](/broken/pages/A8wYIS7YTucNtXMUFdbe) help.
 
-## Pip and  CLI
+## Pip and CLI
 
 {% hint style="info" %}
 Run `pip install` before scanning with the CLI, for example:
@@ -48,7 +48,7 @@ Run `pipenv install` to ensure the CLI can build an up-to-date, accurate depende
 
 To build the dependency tree, Snyk analyzes the `setup.py` file, and detects packages listed in the `install_requires` key.
 
-This file will not be discovered automatically by the CLI. It must be specified manually using the  `--file` option, for example:
+This file will not be discovered automatically by the CLI. It must be specified manually using the `--file` option, for example:
 
 ```python
 snyk test --file=setup.py

@@ -18,12 +18,12 @@ The following Enterprise features are limited or unavailable during the trial:
 
 * [**Single Sign-On (SSO)**](../enterprise-setup/single-sign-on-sso-for-authentication-to-snyk/)**:** Not available.
 * [**Service Accounts**](../enterprise-setup/service-accounts/)**:** Not available.
-* [**Group / Multiple Orgs**](../../snyk-platform-administration/groups-and-organizations/)**:** Limited to one Group and one Organization
-* [**Custom Project Tags**](../../snyk-platform-administration/snyk-projects/project-tags.md)**:** Not available.
-* [**Custom User Roles**](../../snyk-platform-administration/user-roles/user-role-management.md): Not available.
-* [**Audit Logging**](../../snyk-platform-administration/user-management-with-the-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md): Not available.
+* [**Group / Multiple Orgs**](/broken/pages/bNgd7bJkGk7MGdumvqYR)**:** Limited to one Group and one Organization
+* [**Custom Project Tags**](/broken/pages/dTk6mvDt9h4Q2PPDVLEC)**:** Not available.
+* [**Custom User Roles**](/broken/pages/bggpmarB5cU3nHZ8zjJ4): Not available.
+* [**Audit Logging**](/broken/pages/z6KBpROt47NpKT13gMKt): Not available.
 * [**Broker**](../enterprise-setup/snyk-broker/): Not available.
-* [**Self-hosted Git**](../../developer-tools/scm-integrations/organization-level-integrations/github-enterprise.md): Not available.
-* [**Private Registry Integrations**](../../scan-with-snyk/snyk-open-source/package-repository-integrations/): Not available.
-* [**Snyk Essentials Inventory**](../../manage-assets/manage-assets.md): Not available
-* [**Snyk Essentials Issue page**](../../manage-risk/prioritize-issues-for-fixing/prioritization-for-snyk-essentials.md): Limited capabilities, the Funnel view, Risk factors, and evidence graph, will not be available.
+* [**Self-hosted Git**](/broken/pages/nyteKuwjuiougUcOmurw): Not available.
+* [**Private Registry Integrations**](/broken/pages/JDgWkO0MpKqEtJJ3Ex44): Not available.
+* [**Snyk Essentials Inventory**](/broken/pages/JbSZZ30RNmpR2HNsl5oO): Not available
+* [**Snyk Essentials Issue page**](/broken/pages/1OCJrolt15x36HCALAXO): Limited capabilities, the Funnel view, Risk factors, and evidence graph, will not be available.

@@ -2,16 +2,16 @@
 
 Policies define how Snyk behaves when identifying issues. Policies give you a quick and automated way to identify, prioritize, and triage issues. This saves valuable development time and allows developers to take more responsibility and ownership for security, reducing the “noise” level.
 
-See [Policies](../../../manage-risk/policies/) for more details.
+See [Policies](/broken/pages/pSMvTbvxFhevQiQSH13s) for more details.
 
 ## Security policies
 
-Group administrators can define security policies, thus providing an automated way to identify certain issues or types of issues, and apply actions like changing the severity or ignoring the issue based on your conditions.&#x20;
+Group administrators can define security policies, thus providing an automated way to identify certain issues or types of issues, and apply actions like changing the severity or ignoring the issue based on your conditions.
 
-* Configure policies to increase priority or decrease it as needed.&#x20;
+* Configure policies to increase priority or decrease it as needed.
 * Create ignores where needed
 
-See [Security policies](../../../manage-risk/policies/security-policies/) for more details.
+See [Security policies](/broken/pages/KhkVNMIq6t3wsULtc2Xq) for more details.
 
 ## License policies
 
@@ -24,7 +24,7 @@ By default, Snyk determines the severity of licenses in the following way:
 
 Configure policies to match your requirements.
 
-See [Snyk License Compliance Management](../../../scan-with-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/snyk-license-compliance-management.md) for more details.
+See [Snyk License Compliance Management](/broken/pages/S9I60Saqp9wV8hPyp2JV) for more details.
 
 ## Asset policies
 
@@ -35,11 +35,4 @@ Policies can be created using the Policy Editor to:
 * Set classification using policy
 * Set tags using policy
 * Specify coverage policies, for example, scan not performed within a specified number of days
-* For more information, navigate to the [Assets policies](../../../manage-risk/policies/assets-policies/) page.
-
-
-
-
-
-
-
+* For more information, navigate to the [Assets policies](/broken/pages/2bOYG0BUPNve8C912nBT) page.

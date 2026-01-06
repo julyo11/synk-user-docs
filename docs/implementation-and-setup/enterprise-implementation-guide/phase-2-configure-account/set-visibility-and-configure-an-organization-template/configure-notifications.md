@@ -1,7 +1,7 @@
 # Configure notifications
 
 {% hint style="info" %}
-See [Manage notifications](../../../../snyk-platform-administration/manage-notifications.md) for more details.
+See [Manage notifications](/broken/pages/fnxGeoUFWDZyHd4nmh7O) for more details.
 {% endhint %}
 
 Snyk sends different types of alerts to teams based on Group and Organization settings.

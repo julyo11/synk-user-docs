@@ -27,8 +27,8 @@ Configure the Group-level integration by following these steps:
 <figure><img src="../../../../../.gitbook/assets/image (307) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Search and select the GitHub integration
-* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Integrate GitLab using Snyk Essentials](../../../../../developer-tools/scm-integrations/group-level-integrations/gitlab-for-snyk-essentials.md#gitlab-integrate-using-snyk-apprisk) page.
-* If relevant, you can also include the Backstage catalog. See the [Backstage file for SCM integrations](../../../../../developer-tools/scm-integrations/application-context-for-scm-integrations/#backstage-file-for-scm-integrations) page for more details.
+* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [Integrate GitLab using Snyk Essentials](/broken/pages/UKTPvn5HlySjNsbjp4xE#gitlab-integrate-using-snyk-apprisk) page.
+* If relevant, you can also include the Backstage catalog. See the [Backstage file for SCM integrations](/broken/pages/02qFHiSuRZqcR8LYBBEs#backstage-file-for-scm-integrations) page for more details.
 
 {% hint style="info" %}
 After the integration is configured, the Group-level integration shifts to a **Partially connected** status. During the next synchronization, it will transition to the connected state, and the Inventory view will be filled with data from the GitHub source.
@@ -42,7 +42,7 @@ Configure the Organization-level integration by following these steps:
 * Navigate to the Organization-level
 * Open **Integrations**
 * Search and select the GitLab integration
-* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [GitLab integration settings](../../../../../developer-tools/scm-integrations/organization-level-integrations/gitlab.md) page.
+* Configure the integration and populate all mandatory fields, including the PAT details. For more details, see the [GitLab integration settings](/broken/pages/D90VmGS53dWUzau2JSyJ) page.
 
 <figure><img src="../../../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 
