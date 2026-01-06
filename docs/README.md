@@ -1,54 +1,34 @@
-# What's Snyk?
+# Synk API Overview
 
-<figure><img src=".gitbook/assets/Synk Banner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Synk API Banner (1).png" alt=""><figcaption></figcaption></figure>
 
-Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations. The Snyk platform uses a risk-based approach, focusing security efforts on issues that matter, and eliminating the noise of vulnerabilities that have no meaningful impact.
+{% hint style="warning" %}
+The majority of Snyk APIs are restricted to use by Enterprise plan customers only.
 
-To manage and govern the security program, Snyk gives security teams immediate visibility into coverage and business context across all application assets, smart policies to automate and scale in large environments, and analytics and reporting to measure the performance of your security program.
+For more information, see [Plans and pricing](https://snyk.io/plans).
+{% endhint %}
 
-* Snyk Open Source and Snyk Code: see [Supported languages, package managers, and frameworks](supported-languages/supported-languages-package-managers-and-frameworks.md).
-* Snyk Container: see [Supported operating system distributions](/broken/pages/MgFrePnlbvurSaWmgk1R).
-* Snyk Infrastructure as Code: see [Supported IaC and cloud providers](/broken/pages/jKTE2OJzpYIC21JmQiHP).
-* Snyk Essentials: see [Snyk Essentials](/broken/pages/LwY0tzGcNW81AE6nW8kP)
-* Snyk API & Web: see [Snyk API & Web](https://snyk.io/product/dast-api-web/).
+The Snyk API allows customers to integrate programmatically with Snyk.
 
-## The Snyk developer-first approach
+The [Snyk REST API](https://docs.snyk.io/snyk-api/rest-api/about-the-rest-api) and the [V1 API](https://docs.snyk.io/snyk-api/v1-api) are available in the Snyk API [Reference](https://docs.snyk.io/snyk-api/reference). Additional endpoints are available in the [OAuth2 API reference](https://docs.snyk.io/snyk-api/oauth2-api).
 
-Snyk provides visibility in a developer’s workflow and actionable insights. The benefit is engaging developers in security practices as part of their development work. Thus, the focus is on building a secure application rather than overhead-intensive work, such as putting in hard QA gates.
+### Automating Snyk processes
 
-Developers now assemble applications with a combination of proprietary and open-source code, run that code in containers, and then deploy with infrastructure as code configurations using technologies like Kubernetes and Terraform.
+The Snyk API enables developers to automate Snyk processes to accomplish their specific workflows, ensuring consistency in both developer experience and platform governance.
 
-A robust security process secures each component where they are built and maintained. Snyk integrates into DevOps processes to work with developers using the methods each prefers, while following and supporting industry best practices. Snyk integrates directly into your IDEs, workflows, and automation pipelines to add security expertise to your toolkit.
+Use the API when you want to customize, integrate, and automate Snyk processes as part of your specific workflows.
 
-<figure><img src=".gitbook/assets/image (189).png" alt="Snyk Developer Security Platform: Products and Developer experience"><figcaption><p>Snyk Developer Security Platform: Products and Developer experience</p></figcaption></figure>
+### Deciding to use the API, the CLI, or an SCM integration
 
-## Use Snyk in your workflow
+You may decide to use an API rather than the CLI or an integration. When you decide, consider possible differences in the output for the API, the CLI, and integrations.
 
-* Secure your code: use [Snyk Open Source](/broken/pages/JKQcCy3C8lRS2rxWmdA7) to fix vulnerabilities in your open source dependencies and [Snyk Code](/broken/pages/VH8LkvMfOc0LnBAGa3Iq) to fix vulnerabilities in your source code.
-* Secure your containers: use [Snyk Container](/broken/pages/VRa9ioGoKYGLhsRYyKdj) to fix vulnerabilities in container images and Kubernetes applications.
-* Secure your infrastructure: use [Snyk Infrastructure as Code](/broken/pages/APpxA0ls31leqJCrCZ5f) (IaC) to fix misconfigurations in Terraform, CloudFormation, Kubernetes, and Azure templates.
+For example, for many package managers, using the API will be less accurate than running the Snyk CLI as part of your build pipe or locally on your package. More than one version of a package may fit the requirements in manifest files.
 
-## Choose how to run Snyk
+Running the CLI locally tests the actual deployed code and creates an accurate snapshot of the dependency versions in use. The API infers a snapshot, with inferior accuracy. Note that the Snyk CLI can output machine-readable JSON (`snyk test --json`).
 
-You can run Snyk in the following ways:
+You can allow Snyk access to your development flow by using Snyk integrations. The advantage is having Snyk monitor every new pull request and suggest fixes by opening new pull requests. You can integrate Snyk directly with your source code management (SCM) tool, or by using a Broker to allow greater security and auditability.
 
-* Web: the Snyk Web UI ([app.snyk.io](https://app.snyk.io)) provides a browser-based experience with functions such as configuration settings, filtering and fixing discovered issues, and reports.
-* [CLI](/broken/pages/eD26UDAHGrXfeHtinya2): the Snyk Command Line Interface enables you to run vulnerability scans on your local machine and integrate Snyk into your pipeline.
-* [IDEs](/broken/pages/OWQNUoqm7FrjlbC3vcXP): the Snyk IDE integrations enable you to embed Snyk in your development environment.
-* [API](/broken/pages/WJR3UthqfOfZZs4uhhwu): the Snyk API enables you to integrate with Snyk programmatically, tuning Snyk security automation to your specific workflows.
+Last updated 8 months ago
 
-## What can Snyk integrate with?
+Was this helpful?
 
-Snyk integrations for your software development process allow you to integrate Snyk into your development and security processes, including source control, IDE, CI/CD, and many others.
-
-For details, see [Integrate with Snyk](/broken/pages/xwry3aDtePANCG1oKbgw).
-
-## **What does Snyk cost?**
-
-Snyk has several pricing plans available, from free to Enterprise. See [Snyk Pricing Plans](https://snyk.io/plans/).
-
-Snyk offers a trial of the platform, but this has imposed feature limitations. See [Trial limitations](implementation-and-setup/enterprise-implementation-guide/trial-limitations.md).
-
-## What happens to my data?
-
-For details on Snyk handling, see [How Snyk handles your data](/broken/pages/OiIqUXA17KuWz7sPHqQO).
